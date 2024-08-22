@@ -71,7 +71,8 @@ export default function Faq() {
                                         aria-labelledby="basic-heading-one"
                                     >
                                         <p className="text-base font-normal text-gray-400">
-                                            Our service offers flexible options tailored to the specific needs, type, and preferences of your organization. It has been successfully implemented in a variety of settings, including senior welfare facilities, sports facilities, public institutions, and large corporations, with each using the service in unique ways. If you're interested in adopting our service, feel free to contact us, and we'll be happy to provide you with more information.
+                                            Our service offers flexible options tailored to the specific needs, type, and preferences of your organization. It has been successfully implemented in a variety of settings, including senior welfare facilities, sports facilities, public institutions, and large corporations, with each using the service in unique ways. If you&apos;re interested in adopting our service, feel free to contact us, and we&apos;ll be happy to provide you with more information.
+
                                         </p>
                                     </div>
                                 </div>

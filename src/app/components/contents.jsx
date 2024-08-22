@@ -26,7 +26,7 @@ export default function Contents(){
                             <Image className="h-40 rounded w-full object-cover object-center hover:object-scale-down mb-6" src="https://github.com/showboyz/showboyz.github.io/blob/main/Desktop_2.png?raw=true" alt="content" width={500} height={400}/>
                             <h3 className="tracking-widest text-cyan-400 text-xs font-medium title-font">Assessing Functional Abilities</h3>
                             <h2 className="text-lg text-gray-100 font-medium title-font mb-4">Physical Capability Scale</h2>
-                            <p className="leading-relaxed text-base mt-auto text-gray-400">It is essential to evaluate and tailor care in order to enhance seniors' daily functions and independence.</p>
+                            <p className="leading-relaxed text-base mt-auto text-gray-400">It is essential to evaluate and tailor care in order to enhance seniors&apos; daily functions and independence.</p>
                         </div>
                     </div>
                     <div className="xl:w-1/4 md:w-1/2 p-4">
