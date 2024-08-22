@@ -66,7 +66,7 @@ export default function Faq() {
                                     <div
                                         id="basic-collapse-one"
                                         className={`accordion-content w-full px-0 overflow-hidden pr-4 transition-max-height duration-500 ease-in-out ${
-                                            activeIndex === 0 ? "max-h-40" : "max-h-0"
+                                            activeIndex === 0 ? "max-h-40 sm:max-h-auto" : "max-h-0"
                                         }`}
                                         aria-labelledby="basic-heading-one"
                                     >
@@ -107,7 +107,7 @@ export default function Faq() {
                                     <div
                                         id="basic-collapse-two"
                                         className={`accordion-content w-full px-0 overflow-hidden pr-4 transition-max-height duration-500 ease-in-out ${
-                                            activeIndex === 1 ? "max-h-40" : "max-h-0"
+                                            activeIndex === 1 ? "max-h-40 sm:max-h-auto" : "max-h-0"
                                         }`}
                                         aria-labelledby="basic-heading-two"
                                     >
@@ -147,7 +147,7 @@ export default function Faq() {
                                     <div
                                         id="basic-collapse-three"
                                         className={`accordion-content w-full px-0 overflow-hidden pr-4 transition-max-height duration-500 ease-in-out ${
-                                            activeIndex === 2 ? "max-h-40" : "max-h-0"
+                                            activeIndex === 2 ? "max-h-40 sm:max-h-auto" : "max-h-0"
                                         }`}
                                         aria-labelledby="basic-heading-three"
                                     >
