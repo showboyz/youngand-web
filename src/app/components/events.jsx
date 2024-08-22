@@ -15,14 +15,13 @@ export default function Events(){
                 <Image 
                     alt="gallery" 
                     className="absolute inset-0 w-full h-full object-cover object-center filter grayscale" 
-                    src="https://images.unsplash.com/photo-1720983685929-3ed3309aed63?q=80&w=3200&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                    src="https://github.com/showboyz/showboyz.github.io/blob/main/IMG_7346.JPG?raw=true"
                     fill // layout="fill" 대신 사용
                     style={{ objectFit: 'cover' }} // objectFit="cover" 대신 사용
                 />
                     <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-800 bg-gray-900 opacity-0 hover:opacity-100">
                     <h2 className="tracking-widest text-sm title-font font-medium text-indigo-400 mb-1">THE SUBTITLE</h2>
                     <h1 className="title-font text-lg font-medium text-white mb-3">Shooting Stars</h1>
-                    <p className="leading-relaxed">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.</p>
                     </div>
                 </div>
                 </div>
@@ -31,14 +30,13 @@ export default function Events(){
                     <Image 
                         alt="gallery" 
                         className="absolute inset-0 w-full h-full object-cover object-center filter grayscale" 
-                        src="https://dummyimage.com/601x361"
+                        src="https://github.com/showboyz/showboyz.github.io/blob/main/IMG_7348.JPG?raw=true"
                         fill // layout="fill" 대신 사용
                         style={{ objectFit: 'cover' }} // objectFit="cover" 대신 사용
                     />
                     <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-800 bg-gray-900 opacity-0 hover:opacity-100">
                     <h2 className="tracking-widest text-sm title-font font-medium text-indigo-400 mb-1">THE SUBTITLE</h2>
                     <h1 className="title-font text-lg font-medium text-white mb-3">The Catalyzer</h1>
-                    <p className="leading-relaxed">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.</p>
                     </div>
                 </div>
                 </div>
@@ -47,14 +45,13 @@ export default function Events(){
                     <Image 
                         alt="gallery" 
                         className="absolute inset-0 w-full h-full object-cover object-center filter grayscale" 
-                        src="https://images.unsplash.com/photo-1698138819865-88d3add4838f?q=80&w=2664&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                        src="https://github.com/showboyz/showboyz.github.io/blob/main/IMG_7348.JPG?raw=true"
                         fill // layout="fill" 대신 사용
                         style={{ objectFit: 'cover' }} // objectFit="cover" 대신 사용
                     />
                     <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-800 bg-gray-900 opacity-0 hover:opacity-100">
                     <h2 className="tracking-widest text-sm title-font font-medium text-indigo-400 mb-1">THE SUBTITLE</h2>
                     <h1 className="title-font text-lg font-medium text-white mb-3">The 400 Blows</h1>
-                    <p className="leading-relaxed">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.</p>
                     </div>
                 </div>
                 </div>
@@ -63,14 +60,13 @@ export default function Events(){
                     <Image 
                         alt="gallery" 
                         className="absolute inset-0 w-full h-full object-cover object-center filter grayscale" 
-                        src="https://images.unsplash.com/photo-1722440814495-3d2d3107a7de?q=80&w=3432&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                        src="https://github.com/showboyz/showboyz.github.io/blob/main/IMG_7353.JPG?raw=true"
                         fill // layout="fill" 대신 사용
                         style={{ objectFit: 'cover' }} // objectFit="cover" 대신 사용
                     />
                     <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-800 bg-gray-900 opacity-0 hover:opacity-100">
                     <h2 className="tracking-widest text-sm title-font font-medium text-indigo-400 mb-1">THE SUBTITLE</h2>
                     <h1 className="title-font text-lg font-medium text-white mb-3">Neptune</h1>
-                    <p className="leading-relaxed">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.</p>
                     </div>
                 </div>
                 </div>
@@ -79,14 +75,13 @@ export default function Events(){
                     <Image 
                         alt="gallery" 
                         className="absolute inset-0 w-full h-full object-cover object-center filter grayscale" 
-                        src="https://images.unsplash.com/photo-1716654706756-394bd6be9eff?q=80&w=3335&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                        src="https://github.com/showboyz/showboyz.github.io/blob/main/IMG_7360.JPG?raw=true"
                         fill // layout="fill" 대신 사용
                         style={{ objectFit: 'cover' }} // objectFit="cover" 대신 사용
                     />
                     <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-800 bg-gray-900 opacity-0 hover:opacity-100">
                     <h2 className="tracking-widest text-sm title-font font-medium text-indigo-400 mb-1">THE SUBTITLE</h2>
                     <h1 className="title-font text-lg font-medium text-white mb-3">Holden Caulfield</h1>
-                    <p className="leading-relaxed">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.</p>
                     </div>
                 </div>
                 </div>
@@ -95,14 +90,13 @@ export default function Events(){
                     <Image 
                         alt="gallery" 
                         className="absolute inset-0 w-full h-full object-cover object-center filter grayscale" 
-                        src="https://images.unsplash.com/photo-1722440814495-3d2d3107a7de?q=80&w=3432&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                        src="https://github.com/showboyz/showboyz.github.io/blob/main/IMG_7347.JPG?raw=true"
                         fill // layout="fill" 대신 사용
                         style={{ objectFit: 'cover' }} // objectFit="cover" 대신 사용
                     />
                     <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-800 bg-gray-900 opacity-0 hover:opacity-100">
                     <h2 className="tracking-widest text-sm title-font font-medium text-indigo-400 mb-1">THE SUBTITLE</h2>
                     <h1 className="title-font text-lg font-medium text-white mb-3">Alper Kamu</h1>
-                    <p className="leading-relaxed">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.</p>
                     </div>
                 </div>
                 </div>
