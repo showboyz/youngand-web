@@ -25,6 +25,7 @@ const nextConfig = {
                 pathname: '/api/portraits/**',
             },
         ],
+        unoptimized: true,  // 이미지 최적화 비활성화
     },
     output: 'export',  // 정적 사이트 생성을 위한 설정
 };
