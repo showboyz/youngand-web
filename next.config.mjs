@@ -26,6 +26,7 @@ const nextConfig = {
             },
         ],
     },
+    output: 'export',  // 정적 사이트 생성을 위한 설정
 };
 
 export default nextConfig;
