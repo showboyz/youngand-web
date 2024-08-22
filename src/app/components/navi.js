@@ -45,10 +45,10 @@ export default function Navi() {
                     </button>
                 </div>
                 <div className="hidden lg:flex lg:gap-x-12 items-center">
-                    <Link href="/projects" className="text-sm font-semibold leading-6 text-gray-100 hover:text-cyan-400 hover:scale-105">
+                    <Link href="#" className="text-sm font-semibold leading-6 text-gray-100 hover:text-cyan-400 hover:scale-105">
                         Product
                     </Link>
-                    <Link href="/#" className="text-sm font-semibold leading-6 text-gray-100 hover:text-cyan-400 hover:scale-105">
+                    <Link href="#" className="text-sm font-semibold leading-6 text-gray-100 hover:text-cyan-400 hover:scale-105">
                         About
                     </Link>
 
