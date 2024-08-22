@@ -100,7 +100,7 @@ const Contact = forwardRef((props, ref) => {
                                 type="text"
                                 name="name"
                                 placeholder="Name"
-                                className="w-full rounded-md py-3 px-4 bg-gray-100 text-gray-800 text-sm outline-cyan-200 focus:bg-gray-100"
+                                className="w-full rounded-md py-3 px-4 bg-gray-100 text-gray-800 text-[16px] outline-cyan-200 focus:bg-gray-100"
                                 value={formData.name}
                                 onChange={handleChange}
                                 required
@@ -109,7 +109,7 @@ const Contact = forwardRef((props, ref) => {
                                 type="email"
                                 name="email"
                                 placeholder="Email"
-                                className="w-full rounded-md py-3 px-4 bg-gray-100 text-gray-800 text-sm outline-cyan-200 focus:bg-gray-100"
+                                className="w-full rounded-md py-3 px-4 bg-gray-100 text-gray-800 text-[16px] outline-cyan-200 focus:bg-gray-100"
                                 value={formData.email}
                                 onChange={handleChange}
                                 required
@@ -118,7 +118,7 @@ const Contact = forwardRef((props, ref) => {
                                 type="text"
                                 name="subject"
                                 placeholder="Subject"
-                                className="w-full rounded-md py-3 px-4 bg-gray-100 text-gray-800 text-sm outline-cyan-200 focus:bg-gray-100"
+                                className="w-full rounded-md py-3 px-4 bg-gray-100 text-gray-800 text-[16px] outline-cyan-200 focus:bg-gray-100"
                                 value={formData.subject}
                                 onChange={handleChange}
                                 required
@@ -127,14 +127,14 @@ const Contact = forwardRef((props, ref) => {
                                 name="message"
                                 placeholder="Message"
                                 rows="6"
-                                className="w-full rounded-md py-3 px-4 bg-gray-100 text-gray-800 text-sm outline-cyan-200 focus:bg-gray-100"
+                                className="w-full rounded-md py-3 px-4 bg-gray-100 text-gray-800 text-[16px] outline-cyan-200 focus:bg-gray-100"
                                 value={formData.message}
                                 onChange={handleChange}
                                 required
                             />
                             <button
                                 type="submit"
-                                className="text-white bg-cyan-400 hover:bg-cyan-900 tracking-wide rounded-md text-sm px-4 py-3 w-full !mt-6"
+                                className="text-white bg-cyan-400 hover:bg-cyan-900 tracking-wide rounded-md text-[16px] px-4 py-3 w-full !mt-6"
                             >
                                 Send
                             </button>
