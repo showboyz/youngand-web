@@ -11,10 +11,10 @@ export default function Events(){
             </div>
             <div className="flex flex-wrap -m-4">
                 <div className="lg:w-1/3 sm:w-1/2 p-4">
-                <div className="flex relative">
+                <div className="flex relative">   
                 <Image 
                     alt="gallery" 
-                    className="absolute inset-0 w-full h-full object-cover object-center" 
+                    className="absolute inset-0 w-full h-full object-cover object-center filter grayscale" 
                     src="https://images.unsplash.com/photo-1720983685929-3ed3309aed63?q=80&w=3200&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                     fill // layout="fill" 대신 사용
                     style={{ objectFit: 'cover' }} // objectFit="cover" 대신 사용
@@ -30,7 +30,7 @@ export default function Events(){
                 <div className="flex relative">
                     <Image 
                         alt="gallery" 
-                        className="absolute inset-0 w-full h-full object-cover object-center" 
+                        className="absolute inset-0 w-full h-full object-cover object-center filter grayscale" 
                         src="https://dummyimage.com/601x361"
                         fill // layout="fill" 대신 사용
                         style={{ objectFit: 'cover' }} // objectFit="cover" 대신 사용
@@ -46,7 +46,7 @@ export default function Events(){
                 <div className="flex relative">
                     <Image 
                         alt="gallery" 
-                        className="absolute inset-0 w-full h-full object-cover object-center" 
+                        className="absolute inset-0 w-full h-full object-cover object-center filter grayscale" 
                         src="https://images.unsplash.com/photo-1698138819865-88d3add4838f?q=80&w=2664&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                         fill // layout="fill" 대신 사용
                         style={{ objectFit: 'cover' }} // objectFit="cover" 대신 사용
@@ -62,7 +62,7 @@ export default function Events(){
                 <div className="flex relative">
                     <Image 
                         alt="gallery" 
-                        className="absolute inset-0 w-full h-full object-cover object-center" 
+                        className="absolute inset-0 w-full h-full object-cover object-center filter grayscale" 
                         src="https://images.unsplash.com/photo-1722440814495-3d2d3107a7de?q=80&w=3432&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                         fill // layout="fill" 대신 사용
                         style={{ objectFit: 'cover' }} // objectFit="cover" 대신 사용
@@ -78,7 +78,7 @@ export default function Events(){
                 <div className="flex relative">
                     <Image 
                         alt="gallery" 
-                        className="absolute inset-0 w-full h-full object-cover object-center" 
+                        className="absolute inset-0 w-full h-full object-cover object-center filter grayscale" 
                         src="https://images.unsplash.com/photo-1716654706756-394bd6be9eff?q=80&w=3335&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                         fill // layout="fill" 대신 사용
                         style={{ objectFit: 'cover' }} // objectFit="cover" 대신 사용
@@ -94,7 +94,7 @@ export default function Events(){
                 <div className="flex relative">
                     <Image 
                         alt="gallery" 
-                        className="absolute inset-0 w-full h-full object-cover object-center" 
+                        className="absolute inset-0 w-full h-full object-cover object-center filter grayscale" 
                         src="https://images.unsplash.com/photo-1722440814495-3d2d3107a7de?q=80&w=3432&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                         fill // layout="fill" 대신 사용
                         style={{ objectFit: 'cover' }} // objectFit="cover" 대신 사용
