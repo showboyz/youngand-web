@@ -17,14 +17,14 @@ export default function Hero({ scrollToContact }) {
                         height={400} // 세로 크기 설정
                     />
                 </div>
-                <div className="flex flex-col items-start text-center md:w-1/2 md:items-start md:pl-16 md:text-left lg:flex-grow lg:pl-24">
+                <div className="flex flex-col items-center text-center md:w-1/2 md:items-start md:pl-16 md:text-left lg:flex-grow lg:pl-24">
                     <h1 className="title-font mb-4 text-3xl font-medium text-gray-100 sm:text-4xl">
                         Brain Health Playground
                     </h1>
                     <p className="mb-8 leading-relaxed">
                         This digital healthcare solution uses AI and computer vision to detect early signs of dementia and deliver personalized cognitive training programs. Our system provides an effective approach for dementia detection and prevention, helping patients maintain and enhance their cognitive function.
                     </p>
-                    <div className="flex justify-center">
+                    <div className="flex justify-center w-full">
                         <button 
                             onClick={scrollToContact} // 여기서 onClick 핸들러를 제대로 설정합니다.
                             className="inline-flex items-center rounded-lg bg-gray-100 px-5 py-3 hover:bg-cyan-900 hover:text-white focus:outline-none"
@@ -35,5 +35,6 @@ export default function Hero({ scrollToContact }) {
                 </div>
             </div>
         </section>
+
     );
 }
