@@ -22,8 +22,6 @@ export default function Events(){
                     <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-800 bg-gray-900 opacity-0 hover:opacity-100">
                     <h2 className="tracking-widest text-sm title-font font-medium text-indigo-400 mb-1">THE SUBTITLE</h2>
                     <h1 className="title-font text-lg font-medium text-white mb-3">Shooting Stars</h1>
-                    <span></span>
-                    <span></span>
                     </div>
                 </div>
                 </div>
@@ -35,7 +33,6 @@ export default function Events(){
                         src="https://github.com/showboyz/showboyz.github.io/blob/main/IMG_7348.JPG?raw=true"
                         fill // layout="fill" 대신 사용
                         style={{ objectFit: 'cover' }} // objectFit="cover" 대신 사용
-                        height={400}
                     />
                     <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-800 bg-gray-900 opacity-0 hover:opacity-100">
                     <h2 className="tracking-widest text-sm title-font font-medium text-indigo-400 mb-1">THE SUBTITLE</h2>
@@ -51,7 +48,6 @@ export default function Events(){
                         src="https://github.com/showboyz/showboyz.github.io/blob/main/IMG_7377.jpg?raw=true"
                         fill // layout="fill" 대신 사용
                         style={{ objectFit: 'cover' }} // objectFit="cover" 대신 사용
-                        height={400}
                     />
                     <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-800 bg-gray-900 opacity-0 hover:opacity-100">
                     <h2 className="tracking-widest text-sm title-font font-medium text-indigo-400 mb-1">THE SUBTITLE</h2>
@@ -67,7 +63,6 @@ export default function Events(){
                         src="https://github.com/showboyz/showboyz.github.io/blob/main/IMG_7353.JPG?raw=true"
                         fill // layout="fill" 대신 사용
                         style={{ objectFit: 'cover' }} // objectFit="cover" 대신 사용
-                        height={400}
                     />
                     <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-800 bg-gray-900 opacity-0 hover:opacity-100">
                     <h2 className="tracking-widest text-sm title-font font-medium text-indigo-400 mb-1">THE SUBTITLE</h2>
@@ -83,7 +78,6 @@ export default function Events(){
                         src="https://github.com/showboyz/showboyz.github.io/blob/main/IMG_7360.JPG?raw=true"
                         fill // layout="fill" 대신 사용
                         style={{ objectFit: 'cover' }} // objectFit="cover" 대신 사용
-                        height={400}
                     />
                     <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-800 bg-gray-900 opacity-0 hover:opacity-100">
                     <h2 className="tracking-widest text-sm title-font font-medium text-indigo-400 mb-1">THE SUBTITLE</h2>
@@ -99,7 +93,6 @@ export default function Events(){
                         src="https://github.com/showboyz/showboyz.github.io/blob/main/IMG_7347.JPG?raw=true"
                         fill // layout="fill" 대신 사용
                         style={{ objectFit: 'cover' }} // objectFit="cover" 대신 사용
-                        height={400}
                     />
                     <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-800 bg-gray-900 opacity-0 hover:opacity-100">
                     <h2 className="tracking-widest text-sm title-font font-medium text-indigo-400 mb-1">THE SUBTITLE</h2>
