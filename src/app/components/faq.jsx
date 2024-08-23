@@ -39,7 +39,7 @@ export default function Faq() {
                                 {/* FAQ Item 1 */}
                                 <div className="accordion pb-7 border-b border-solid border-gray-200">
                                     <button
-                                        className="accordion-toggle group inline-flex items-center justify-between text-xl font-normal leading-8 text-gray-100 w-full transition duration-500 hover:text-cyan-400"
+                                        className="accordion-toggle group inline-flex items-center justify-between text-xl font-normal leading-8 text-gray-100 w-full transition duration-500 hover:text-cyan-400 text-left"
                                         aria-controls="basic-collapse-one"
                                         onClick={() => toggleAccordion(0)}
                                     >
@@ -80,7 +80,7 @@ export default function Faq() {
                                 {/* FAQ Item 2 */}
                                 <div className="accordion pb-7 pt-7 border-b border-solid border-gray-200">
                                     <button
-                                        className="accordion-toggle group inline-flex items-center justify-between text-xl font-normal leading-8 text-gray-100 w-full transition duration-500 hover:text-cyan-400"
+                                        className="accordion-toggle group inline-flex items-center justify-between text-xl font-normal leading-8 text-gray-100 w-full transition duration-500 hover:text-cyan-400 text-left"
                                         aria-controls="basic-collapse-two"
                                         onClick={() => toggleAccordion(1)}
                                     >
@@ -120,7 +120,7 @@ export default function Faq() {
                                 {/* FAQ Item 3 */}
                                 <div className="accordion pb-7 pt-7 border-b border-solid border-gray-200">
                                     <button
-                                        className="accordion-toggle group inline-flex items-center justify-between text-xl font-normal leading-8 text-gray-100 w-full transition duration-500 hover:text-cyan-400"
+                                        className="accordion-toggle group inline-flex items-center justify-between text-xl font-normal leading-8 text-gray-100 w-full transition duration-500 hover:text-cyan-400 text-left"
                                         aria-controls="basic-collapse-three"
                                         onClick={() => toggleAccordion(2)}
                                     >
