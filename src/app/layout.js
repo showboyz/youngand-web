@@ -18,20 +18,21 @@ export default function RootLayout({ children }) {
       <html lang="en">
       <Head>
         <title>{metadata.title}</title>
-        <meta name="description" content={metadata.description} />
-        <meta name="keywords" content={metadata.keywords} />
-        <meta name="author" content={metadata.author} />
+        <meta name="description" content={metadata.description}/>
+        <meta name="keywords" content={metadata.keywords}/>
+        <meta name="author" content={metadata.author}/>
 
         {/* Open Graph (Facebook, LinkedIn) */}
-        <meta property="og:title" content={metadata.title} />
-        <meta property="og:description" content={metadata.description} />
-        <meta property="og:url" content={metadata.url} />
-        <meta property="og:type" content="website" />
+        <meta property="og:title" content={metadata.title}/>
+        <meta property="og:description" content={metadata.description}/>
+        <meta property="og:url" content={metadata.url}/>
+        <meta property="og:type" content="website"/>
 
         {/* Twitter Card */}
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content={metadata.title} />
-        <meta name="twitter:description" content={metadata.description} />
+        <meta name="twitter:card" content="summary_large_image"/>
+        <meta name="twitter:title" content={metadata.title}/>
+        <meta name="twitter:description" content={metadata.description}/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 
       </Head>
       <body>
