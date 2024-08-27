@@ -20,9 +20,9 @@ export default function Events() {
                                 style={{ objectFit: 'cover' }}
                             />
                             <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-800 bg-gray-900 opacity-0 hover:opacity-100">
-                                <h2 className="tracking-widest text-sm title-font font-medium text-indigo-400 mb-1">THE SUBTITLE</h2>
-                                <h1 className="title-font text-lg font-medium text-white mb-3">Shooting Stars</h1>
-                                <p className="leading-relaxed">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.</p>
+                                <h2 className="tracking-widest text-sm title-font font-medium text-cyan-400 mb-1">Interactive Cognitive Exercises</h2>
+                                <h1 className="title-font text-lg font-medium text-white mb-3">Engaging Mind and Body</h1>
+                                <p className="leading-relaxed">Strengthen both your mind and body through interactive exercises designed to boost cognitive function while keeping you physically active.</p>
                             </div>
                         </div>
                     </div>
@@ -36,9 +36,9 @@ export default function Events() {
                                 style={{ objectFit: 'cover' }}
                             />
                             <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-800 bg-gray-900 opacity-0 hover:opacity-100">
-                                <h2 className="tracking-widest text-sm title-font font-medium text-indigo-400 mb-1">THE SUBTITLE</h2>
-                                <h1 className="title-font text-lg font-medium text-white mb-3">The Catalyzer</h1>
-                                <p className="leading-relaxed">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.</p>
+                                <h2 className="tracking-widest text-sm title-font font-medium text-cyan-400 mb-1">Daily Cognitive Challenges</h2>
+                                <h1 className="title-font text-lg font-medium text-white mb-3">Stay Active, Stay Sharp</h1>
+                                <p className="leading-relaxed">Engage in daily challenges that stimulate your brain and enhance memory, ensuring you stay sharp and focused throughout your day.</p>
                             </div>
                         </div>
                     </div>
@@ -52,9 +52,9 @@ export default function Events() {
                                 style={{ objectFit: 'cover' }}
                             />
                             <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-800 bg-gray-900 opacity-0 hover:opacity-100">
-                                <h2 className="tracking-widest text-sm title-font font-medium text-indigo-400 mb-1">THE SUBTITLE</h2>
-                                <h1 className="title-font text-lg font-medium text-white mb-3">The 400 Blows</h1>
-                                <p className="leading-relaxed">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.</p>
+                                <h2 className="tracking-widest text-sm title-font font-medium text-cyan-400 mb-1">Holistic Brain Health</h2>
+                                <h1 className="title-font text-lg font-medium text-white mb-3">Mindful Movements</h1>
+                                <p className="leading-relaxed">Experience the benefits of combining physical activity with cognitive training, promoting holistic brain health and overall well-being.</p>
                             </div>
                         </div>
                     </div>
@@ -69,9 +69,9 @@ export default function Events() {
                                 style={{ objectFit: 'cover' }}
                             />
                             <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-800 bg-gray-900 opacity-0 hover:opacity-100">
-                                <h2 className="tracking-widest text-sm title-font font-medium text-indigo-400 mb-1">THE SUBTITLE</h2>
-                                <h1 className="title-font text-lg font-medium text-white mb-3">Neptune</h1>
-                                <p className="leading-relaxed">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.</p>
+                                <h2 className="tracking-widest text-sm title-font font-medium text-cyan-400 mb-1">Integrated Cognitive and Physical Training</h2>
+                                <h1 className="title-font text-lg font-medium text-white mb-3">Fitness for the Mind</h1>
+                                <p className="leading-relaxed">Our program integrates cognitive training with physical exercises, helping you maintain both mental sharpness and physical fitness.</p>
                             </div>
                         </div>
                     </div>
@@ -85,9 +85,9 @@ export default function Events() {
                                 style={{ objectFit: 'cover' }}
                             />
                             <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-800 bg-gray-900 opacity-0 hover:opacity-100">
-                                <h2 className="tracking-widest text-sm title-font font-medium text-indigo-400 mb-1">THE SUBTITLE</h2>
-                                <h1 className="title-font text-lg font-medium text-white mb-3">Holden Caulfield</h1>
-                                <p className="leading-relaxed">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.</p>
+                                <h2 className="tracking-widest text-sm title-font font-medium text-cyan-400 mb-1">THE SUBTITLE</h2>
+                                <h1 className="title-font text-lg font-medium text-white mb-3">Connect and Improve</h1>
+                                <p className="leading-relaxed">Connect with others while engaging in cognitive exercises designed to improve memory and social interaction, all from the comfort of your home.</p>
                             </div>
                         </div>
                     </div>
@@ -101,9 +101,9 @@ export default function Events() {
                                 style={{ objectFit: 'cover' }}
                             />
                             <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-800 bg-gray-900 opacity-0 hover:opacity-100">
-                                <h2 className="tracking-widest text-sm title-font font-medium text-indigo-400 mb-1">THE SUBTITLE</h2>
-                                <h1 className="title-font text-lg font-medium text-white mb-3">Holden Caulfield</h1>
-                                <p className="leading-relaxed">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.</p>
+                                <h2 className="tracking-widest text-sm title-font font-medium text-indigo-400 mb-1">Social and Cognitive Engagement</h2>
+                                <h1 className="title-font text-lg font-medium text-white mb-3">Personalized Brain Workouts</h1>
+                                <p className="leading-relaxed">Enjoy personalized cognitive routines that adapt to your individual needs, helping you maintain a healthy brain and a vibrant lifestyle.</p>
                             </div>
                         </div>
                     </div>
