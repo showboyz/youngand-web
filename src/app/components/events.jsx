@@ -15,7 +15,7 @@ export default function Events() {
                 </div>
                 <div className="flex flex-wrap -m-4">
                     <div className="lg:w-1/3 sm:w-1/2 p-4">
-                        <div className="flex relative aspect-w-1 aspect-h-1">
+                        <div className="h-80 relative">
                             <Image
                                 alt="gallery"
                                 className="absolute inset-0 w-full h-full object-cover filter grayscale"
@@ -24,7 +24,7 @@ export default function Events() {
                                 style={{objectFit: 'cover'}}
                             />
                             <div
-                                className="px-8 py-10 relative z-10 w-full border-4 border-gray-800 bg-gray-900 opacity-0 hover:opacity-100">
+                                className="px-8 py-10 relative z-10 w-full h-full border-4 border-gray-800 bg-gray-900 opacity-0 hover:opacity-100">
                                 <h2 className="tracking-widest text-sm title-font font-medium text-cyan-400 mb-1">Interactive
                                     Cognitive Exercises</h2>
                                 <h1 className="title-font text-lg font-medium text-white mb-3">Engaging Mind and
@@ -36,7 +36,7 @@ export default function Events() {
                         </div>
                     </div>
                     <div className="lg:w-1/3 sm:w-1/2 p-4">
-                        <div className="flex relative aspect-w-1 aspect-h-1">
+                        <div className="h-80 relative">
                             <Image
                                 alt="gallery"
                                 className="absolute inset-0 w-full h-full object-cover filter grayscale"
@@ -45,7 +45,7 @@ export default function Events() {
                                 style={{objectFit: 'cover'}}
                             />
                             <div
-                                className="px-8 py-10 relative z-10 w-full border-4 border-gray-800 bg-gray-900 opacity-0 hover:opacity-100">
+                                className="px-8 py-10 relative z-10 w-full h-full border-4 border-gray-800 bg-gray-900 opacity-0 hover:opacity-100">
                                 <h2 className="tracking-widest text-sm title-font font-medium text-cyan-400 mb-1">Daily
                                     Cognitive Challenges</h2>
                                 <h1 className="title-font text-lg font-medium text-white mb-3">Stay Active, Stay
@@ -57,7 +57,7 @@ export default function Events() {
                         </div>
                     </div>
                     <div className="lg:w-1/3 sm:w-1/2 p-4">
-                        <div className="flex relative aspect-w-1 aspect-h-1">
+                        <div className="h-80 relative">
                             <Image
                                 alt="gallery"
                                 className="absolute inset-0 w-full h-full object-cover filter grayscale"
@@ -66,7 +66,7 @@ export default function Events() {
                                 style={{objectFit: 'cover'}}
                             />
                             <div
-                                className="px-8 py-10 relative z-10 w-full border-4 border-gray-800 bg-gray-900 opacity-0 hover:opacity-100">
+                                className="px-8 py-10 relative z-10 w-full h-full border-4 border-gray-800 bg-gray-900 opacity-0 hover:opacity-100">
                                 <h2 className="tracking-widest text-sm title-font font-medium text-cyan-400 mb-1">Holistic
                                     Brain Health</h2>
                                 <h1 className="title-font text-lg font-medium text-white mb-3">Mindful Movements</h1>
@@ -78,7 +78,7 @@ export default function Events() {
                     </div>
                     {/* 추가 이미지들, 모바일에서는 숨기기 */}
                     <div className="lg:w-1/3 sm:w-1/2 p-4 hidden md:block">
-                        <div className="flex relative aspect-w-1 aspect-h-1">
+                        <div className="h-80 relative">
                             <Image
                                 alt="gallery"
                                 className="absolute inset-0 w-full h-full object-cover filter grayscale"
@@ -87,7 +87,7 @@ export default function Events() {
                                 style={{objectFit: 'cover'}}
                             />
                             <div
-                                className="px-8 py-10 relative z-10 w-full border-4 border-gray-800 bg-gray-900 opacity-0 hover:opacity-100">
+                                className="px-8 py-10 relative z-10 w-full h-full border-4 border-gray-800 bg-gray-900 opacity-0 hover:opacity-100">
                                 <h2 className="tracking-widest text-sm title-font font-medium text-cyan-400 mb-1">Integrated
                                     Cognitive and Physical Training</h2>
                                 <h1 className="title-font text-lg font-medium text-white mb-3">Fitness for the Mind</h1>
@@ -98,7 +98,7 @@ export default function Events() {
                         </div>
                     </div>
                     <div className="lg:w-1/3 sm:w-1/2 p-4 hidden md:block">
-                        <div className="flex relative aspect-w-1 aspect-h-1">
+                        <div className="h-80 relative">
                             <Image
                                 alt="gallery"
                                 className="absolute inset-0 w-full h-full object-cover filter grayscale"
@@ -107,7 +107,7 @@ export default function Events() {
                                 style={{objectFit: 'cover'}}
                             />
                             <div
-                                className="px-8 py-10 relative z-10 w-full border-4 border-gray-800 bg-gray-900 opacity-0 hover:opacity-100">
+                                className="px-8 py-10 relative z-10 w-full h-full border-4 border-gray-800 bg-gray-900 opacity-0 hover:opacity-100">
                                 <h2 className="tracking-widest text-sm title-font font-medium text-cyan-400 mb-1">Social
                                     and Cognitive Engagement</h2>
                                 <h1 className="title-font text-lg font-medium text-white mb-3">Connect and Improve</h1>
@@ -118,7 +118,7 @@ export default function Events() {
                         </div>
                     </div>
                     <div className="lg:w-1/3 sm:w-1/2 p-4 hidden md:block">
-                        <div className="flex relative aspect-w-1 aspect-h-1">
+                        <div className="h-80 relative">
                             <Image
                                 alt="gallery"
                                 className="absolute inset-0 w-full h-full object-cover filter grayscale"
@@ -127,7 +127,7 @@ export default function Events() {
                                 style={{objectFit: 'cover'}}
                             />
                             <div
-                                className="px-8 py-10 relative z-10 w-full border-4 border-gray-800 bg-gray-900 opacity-0 hover:opacity-100">
+                                className="px-8 py-10 relative z-10 w-full h-full border-4 border-gray-800 bg-gray-900 opacity-0 hover:opacity-100">
                                 <h2 className="tracking-widest text-sm title-font font-medium text-cyan-400 mb-1">Tailored
                                     Cognitive Routines</h2>
                                 <h1 className="title-font text-lg font-medium text-white mb-3">Personalized Brain
@@ -141,6 +141,7 @@ export default function Events() {
                 </div>
             </div>
         </section>
+
 
     );
 }
