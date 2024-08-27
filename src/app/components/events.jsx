@@ -29,7 +29,7 @@ export default function Events() {
                                     Cognitive Exercises</h2>
                                 <h1 className="title-font text-lg font-medium text-white mb-3">Engaging Mind and
                                     Body</h1>
-                                <p className="leading-relaxed text-xs">Strengthen both your mind and body through
+                                <p className="leading-relaxed">Strengthen both your mind and body through
                                     interactive exercises designed to boost cognitive function while keeping you
                                     physically active.</p>
                             </div>
@@ -50,7 +50,7 @@ export default function Events() {
                                     Cognitive Challenges</h2>
                                 <h1 className="title-font text-lg font-medium text-white mb-3">Stay Active, Stay
                                     Sharp</h1>
-                                <p className="leading-relaxed text-xs">Engage in daily challenges that stimulate your
+                                <p className="leading-relaxed">Engage in daily challenges that stimulate your
                                     brain and enhance memory, ensuring you stay sharp and focused throughout your
                                     day.</p>
                             </div>
@@ -70,7 +70,7 @@ export default function Events() {
                                 <h2 className="tracking-widest text-sm title-font font-medium text-cyan-400 mb-1">Holistic
                                     Brain Health</h2>
                                 <h1 className="title-font text-lg font-medium text-white mb-3">Mindful Movements</h1>
-                                <p className="leading-relaxed text-xs">Experience the benefits of combining physical
+                                <p className="leading-relaxed">Experience the benefits of combining physical
                                     activity with cognitive training, promoting holistic brain health and overall
                                     well-being.</p>
                             </div>
@@ -91,7 +91,7 @@ export default function Events() {
                                 <h2 className="tracking-widest text-sm title-font font-medium text-cyan-400 mb-1">Integrated
                                     Cognitive and Physical Training</h2>
                                 <h1 className="title-font text-lg font-medium text-white mb-3">Fitness for the Mind</h1>
-                                <p className="leading-relaxed text-xs">Our program integrates cognitive training with
+                                <p className="leading-relaxed">Our program integrates cognitive training with
                                     physical exercises, helping you maintain both mental sharpness and physical
                                     fitness.</p>
                             </div>
@@ -111,7 +111,7 @@ export default function Events() {
                                 <h2 className="tracking-widest text-sm title-font font-medium text-cyan-400 mb-1">Social
                                     and Cognitive Engagement</h2>
                                 <h1 className="title-font text-lg font-medium text-white mb-3">Connect and Improve</h1>
-                                <p className="leading-relaxed text-xs">Connect with others while engaging in cognitive
+                                <p className="leading-relaxed">Connect with others while engaging in cognitive
                                     exercises designed to improve memory and social interaction, all from the comfort of
                                     your home.</p>
                             </div>
@@ -132,7 +132,7 @@ export default function Events() {
                                     Cognitive Routines</h2>
                                 <h1 className="title-font text-lg font-medium text-white mb-3">Personalized Brain
                                     Workouts</h1>
-                                <p className="leading-relaxed text-xs">Enjoy personalized cognitive routines that adapt
+                                <p className="leading-relaxed">Enjoy personalized cognitive routines that adapt
                                     to your individual needs, helping you maintain a healthy brain and a vibrant
                                     lifestyle.</p>
                             </div>
