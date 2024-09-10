@@ -13,6 +13,7 @@ import Contents from "./components/contents"
 import Faq from "./components/faq"
 import Contact from "./components/contact"
 import React, { useRef } from 'react';
+import GoogleAnalytics from "@/context/GoogleAnalytics";
 
 export default function Home() {
   const contactSectionRef = useRef(null);
@@ -23,7 +24,9 @@ export default function Home() {
     }
   };  
   return (
-  <div className='h bg-gradient-to-b from-slate-950 to-stone-800'>   
+  <div className='h bg-gradient-to-b from-slate-950 to-stone-800'>
+    <GoogleAnalytics />
+
     {/* HEADER */}
     <Navi/>
     {/* HERO */}
