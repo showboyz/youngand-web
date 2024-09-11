@@ -5,7 +5,7 @@ import Head from "next/head";
 
 
 export const metadata = {
-  title: "Youngand",
+  title: "Youngand - Health with Digital Therapeutics",
   description: "Transform Your Health with Digital Therapeutics",
   keywords: "digital therapeutics, health, wellness, cognitive training, dementia prevention, 영앤, youngand",
   author: "youngand",
