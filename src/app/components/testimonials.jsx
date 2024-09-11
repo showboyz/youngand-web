@@ -29,7 +29,7 @@ export default function Testimonials() {
                                     style={{ objectFit: "cover" }}
                                 />
                                 <span className="flex-grow flex flex-col pl-4">
-                                    <span className="title-font font-medium text-gray-500">ALEX KIM</span>
+                                    <span className="title-font font-medium text-gray-500">Sarah Thompson</span>
                                     <span className="text-gray-700 text-sm">Occupational Therapist</span>
                                 </span>
                             </div>
@@ -54,7 +54,7 @@ export default function Testimonials() {
                                 />
                                 <span className="flex-grow flex flex-col pl-4">
                                     <span className="title-font font-medium text-gray-500">ALEX KIM</span>
-                                    <span className="text-gray-700 text-sm">Occupational Therapist</span>
+                                    <span className="text-gray-700 text-sm">Senior Care Specialist</span>
                                 </span>
                             </div>
                         </div>
