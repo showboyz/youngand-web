@@ -15,7 +15,7 @@ export default function Footer() {
                     />
                 </a>
                 <p className="text-sm text-gray-300 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0 mt-4">
-                    © 2022 Youngand All Rights Reserved.
+                    © 2024 Youngand All Rights Reserved.
                 </p>
                 <span className="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start hidden sm:flex">
                     <a className="text-gray-500">
