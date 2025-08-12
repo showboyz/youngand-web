@@ -9,31 +9,39 @@ export default function Features() {
                 </div>
                 <div className="-m-4 flex flex-wrap text-center">
                     <div className="w-full p-4 sm:w-1/2 md:w-1/4">
-                        <div className="rounded-lg border-2 border-gray-200 px-4 py-6 h-full">
+                        <div
+                            role="button"
+                            tabIndex={0}
+                            className="group h-full rounded-2xl border-[0.5px] border-white/40 bg-gradient-to-b from-slate-950 to-stone-800 px-6 py-10 ring-1 ring-white/10 backdrop-blur-sm transition-transform duration-300 ease-out transform-gpu hover:-translate-y-1 hover:scale-[1.03] hover:shadow-[0_35px_60px_-15px_rgba(34,211,238,0.4)] hover:ring-cyan-400/40 focus:outline-none focus-visible:ring-2 focus-visible:ring-cyan-300"
+                        >
                             <svg
                                 fill="none"
                                 stroke="currentColor"
                                 strokeLinecap="round"
                                 strokeLinejoin="round"
                                 strokeWidth="2"
-                                className="mb-3 inline-block h-12 w-12 text-cyan-400"
+                                className="mb-3 inline-block h-12 w-12 text-cyan-400 transition-transform duration-300 group-hover:scale-110"
                                 viewBox="0 0 24 24"
                             >
                                 <path d="M14.5 4h-5L7 7H4a2 2 0 00-2 2v9a2 2 0 002 2h16a2 2 0 002-2V9a2 2 0 00-2-2h-3l-2.5-3z" />
                                 <circle cx="12" cy="13" r="3" />
                             </svg>
-                            <p className="leading-relaxed">Motion Tracking</p>
+                            <p className="leading-relaxed transition-colors group-hover:text-gray-200">Motion Tracking</p>
                         </div>
                     </div>
                     <div className="w-full p-4 sm:w-1/2 md:w-1/4">
-                        <div className="rounded-lg border-2 border-gray-200 px-4 py-6 h-full">
+                        <div
+                            role="button"
+                            tabIndex={0}
+                            className="group h-full rounded-2xl border-[0.5px] border-white/40 bg-gradient-to-b from-slate-950 to-stone-800 px-6 py-10 ring-1 ring-white/10 backdrop-blur-sm transition-transform duration-300 ease-out transform-gpu hover:-translate-y-1 hover:scale-[1.03] hover:shadow-[0_35px_60px_-15px_rgba(34,211,238,0.4)] hover:ring-cyan-400/40 focus:outline-none focus-visible:ring-2 focus-visible:ring-cyan-300"
+                        >
                             <svg
                                 fill="none"
                                 stroke="currentColor"
                                 strokeLinecap="round"
                                 strokeLinejoin="round"
                                 strokeWidth="2"
-                                className="mb-3 inline-block h-12 w-12 text-cyan-400"
+                                className="mb-3 inline-block h-12 w-12 text-cyan-400 transition-transform duration-300 group-hover:scale-110"
                                 viewBox="0 0 24 24"
                             >
                                 <path d="M12 4L12 20" />
@@ -42,18 +50,22 @@ export default function Features() {
                                 <path d="M4 10L4 14" />
                                 <path d="M16 7L16 17" />
                             </svg>
-                            <p className="leading-relaxed">Voice Recognition</p>
+                            <p className="leading-relaxed transition-colors group-hover:text-gray-200">Voice Recognition</p>
                         </div>
                     </div>
                     <div className="w-full p-4 sm:w-1/2 md:w-1/4">
-                        <div className="rounded-lg border-2 border-gray-200 px-4 py-6 h-full">
+                        <div
+                            role="button"
+                            tabIndex={0}
+                            className="group h-full rounded-2xl border-[0.5px] border-white/40 bg-gradient-to-b from-slate-950 to-stone-800 px-6 py-10 ring-1 ring-white/10 backdrop-blur-sm transition-transform duration-300 ease-out transform-gpu hover:-translate-y-1 hover:scale-[1.03] hover:shadow-[0_35px_60px_-15px_rgba(34,211,238,0.4)] hover:ring-cyan-400/40 focus:outline-none focus-visible:ring-2 focus-visible:ring-cyan-300"
+                        >
                             <svg
                                 fill="none"
                                 stroke="currentColor"
                                 strokeLinecap="round"
                                 strokeLinejoin="round"
                                 strokeWidth="0"
-                                className="mb-3 inline-block h-12 w-12 text-cyan-400"
+                                className="mb-3 inline-block h-12 w-12 text-cyan-400 transition-transform duration-300 group-hover:scale-110"
                                 viewBox="0 0 24 24"
                             >
                                 <path
@@ -69,25 +81,29 @@ export default function Features() {
                                     d="M11,14C11,14,11,14,11,14c-0.4,0-0.7-0.2-0.9-0.6L7.9,9l-1,1.6C6.6,10.8,6.3,11,6,11H1c-0.6,0-1-0.4-1-1s0.4-1,1-1h4.5l1.7-2.6C7.4,6.1,7.7,6,8.1,6c0.4,0,0.7,0.2,0.8,0.6l2.2,4.5l1-1.6C12.4,9.2,12.7,9,13,9h6c0.6,0,1,0.4,1,1s-0.4,1-1,1h-5.5l-1.7,2.6C11.6,13.8,11.3,14,11,14z"
                                 />
                             </svg>
-                            <p className="leading-relaxed">Health Monitoring</p>
+                            <p className="leading-relaxed transition-colors group-hover:text-gray-200">Health Monitoring</p>
                         </div>
                     </div>
                     <div className="w-full p-4 sm:w-1/2 md:w-1/4">
-                        <div className="rounded-lg border-2 border-gray-200 px-4 py-6 h-full">
+                        <div
+                            role="button"
+                            tabIndex={0}
+                            className="group h-full rounded-2xl border-[0.5px] border-white/40 bg-gradient-to-b from-slate-950 to-stone-800 px-6 py-10 ring-1 ring-white/10 backdrop-blur-sm transition-transform duration-300 ease-out transform-gpu hover:-translate-y-1 hover:scale-[1.03] hover:shadow-[0_35px_60px_-15px_rgba(34,211,238,0.4)] hover:ring-cyan-400/40 focus:outline-none focus-visible:ring-2 focus-visible:ring-cyan-300"
+                        >
                             <svg
                                 fill="none"
                                 stroke="currentColor"
                                 strokeLinecap="round"
                                 strokeLinejoin="round"
                                 strokeWidth="2"
-                                className="mb-3 inline-block h-12 w-12 text-cyan-400"
+                                className="mb-3 inline-block h-12 w-12 text-cyan-400 transition-transform duration-300 group-hover:scale-110"
                                 viewBox="0 0 24 24"
                             >
                                 <path d="M3 3V21" />
                                 <path d="M23 21H3" />
                                 <path d="M7 16L12.25 10.75L15.75 14.25L21 9" />
                             </svg>
-                            <p className="leading-relaxed">Data Analysis</p>
+                            <p className="leading-relaxed transition-colors group-hover:text-gray-200">Data Analysis</p>
                         </div>
                     </div>
                 </div>
