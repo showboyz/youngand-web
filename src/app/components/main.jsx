@@ -1,7 +1,9 @@
 import Animation from "./animation";
 import Link from "next/link";
+import { useI18n } from "@/context/I18nProvider";
 
 export default function Main() {
+    const { t } = useI18n();
     return (
         <div className="relative isolate px-6 pt-14 lg:px-8">
             <div
@@ -27,10 +29,10 @@ export default function Main() {
                 </div>
                 <div className="text-center">
                     <h1 className="text-4xl font-bold tracking-wide text-gray-100 sm:text-6xl">
-                        Next-Gen AI Cognitive Training Solutions
+                        {t('main.title')}
                     </h1>
                     <p className="mt-6 text-lg leading-8 text-gray-600">
-                        Revolutionizing Mental Health and Cognitive Care Through AI and Innovative Technology to Treat, Prevent, and Transform Lives.
+                        {t('main.subtitle')}
                     </p>
                 </div>
             </div>

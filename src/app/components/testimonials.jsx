@@ -1,14 +1,14 @@
 import Image from "next/image";
+import { useI18n } from "@/context/I18nProvider";
 
 export default function Testimonials() {
+    const { t } = useI18n();
     return (
         <section className="text-gray-600 body-font">
             <div className="container px-5 py-24 mx-auto">
                 <div className="flex flex-col text-center w-full mb-20">
-                    <h1 className="sm:text-3xl text-2xl font-medium title-font mb-4 text-white">Testimonials</h1>
-                    <p className="lg:w-2/3 mx-auto leading-relaxed text-gray-400">
-                        Discover Why Our Clients Trust Us—Read Their Stories and Feedback.
-                    </p>
+                    <h1 className="sm:text-3xl text-2xl font-medium title-font mb-4 text-white">{t('testimonials.title')}</h1>
+                    <p className="lg:w-2/3 mx-auto leading-relaxed text-gray-400">{t('testimonials.desc')}</p>
                 </div>
                 <div className="flex flex-wrap -m-4">
                     <div className="p-4 md:w-1/2 w-full">

@@ -1,6 +1,7 @@
 import { Inter } from "next/font/google";
 import "./globals.css";
 import Head from "next/head";
+import { I18nProvider } from "@/context/I18nProvider";
 
 
 
@@ -35,7 +36,9 @@ export default function RootLayout({ children }) {
 
       </Head>
       <body>
-      {children}
+      <I18nProvider>
+        {children}
+      </I18nProvider>
       </body>
       </html>
   );
