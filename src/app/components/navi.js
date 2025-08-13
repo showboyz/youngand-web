@@ -50,7 +50,7 @@ export default function Navi() {
                     {/*    Product*/}
                     {/*</Link>*/}
                     <Link href="#" className="text-sm font-semibold leading-6 text-gray-100 hover:text-cyan-400 hover:scale-105">
-                        About
+                        {lang === 'KOR' ? '소개' : 'About'}
                     </Link>
 
                     {/* Language toggle button */}

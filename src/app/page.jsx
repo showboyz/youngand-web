@@ -8,6 +8,7 @@ import Testimonials from "./components/testimonials"
 import Main from "./components/main"
 import Features from "./components/features"
 import DualShowcase from "./components/dualShowcase"
+import { useI18n } from "@/context/I18nProvider";
 import Imageslider from "./components/infiniteslider"
 import Pricing from "./components/price"
 import Contents from "./components/contents"
@@ -18,6 +19,7 @@ import GoogleAnalytics from "@/context/GoogleAnalytics";
 
 export default function Home() {
   const contactSectionRef = useRef(null);
+  const { t } = useI18n();
 
   const scrollToContact = () => {
     if (contactSectionRef.current) {
@@ -37,17 +39,17 @@ export default function Home() {
     <DualShowcase
       leftImageUrl="https://github.com/showboyz/showboyz.github.io/blob/main/1231233.png?raw=true"
       rightImageUrl="https://github.com/showboyz/showboyz.github.io/blob/main/323322.png?raw=true"
-      title="AI Monitoring & Cognitive Training"
-      description="Contactless vital and emotion tracking using rPPG, motion, and facial analysis — paired with adaptive, data‑driven exercises tailored for seniors."
+      title={t('dual.title')}
+      description={t('dual.description')}
       leftOverlay={{
-        kicker: "Real‑time Monitoring",
-        title: "Vitals and Emotion at a Glance",
-        subtitle: "rPPG · Facial Expression · Motion",
+        kicker: t('dual.left.kicker'),
+        title: t('dual.left.title'),
+        subtitle: t('dual.left.subtitle'),
       }}
       rightOverlay={{
-        kicker: "Personalized Training",
-        title: "Adaptive Cognitive Exercise",
-        subtitle: "Real‑time feedback with difficulty that fits each user",
+        kicker: t('dual.right.kicker'),
+        title: t('dual.right.title'),
+        subtitle: t('dual.right.subtitle'),
       }}
     />
     {/* BODY */}
