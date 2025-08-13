@@ -1,14 +1,14 @@
 import Link from "next/link";
+import { useI18n } from "@/context/I18nProvider";
 
 export default function Pricing() {
+    const { t } = useI18n();
     return (
         <section>
             <div className="mx-auto max-w-screen-xl px-4 py-8 lg:px-6 lg:py-16">
                 <div className="mx-auto mb-8 max-w-screen-md text-center lg:mb-12">
-                    <h1 className="title-font mb-4 text-2xl font-medium text-gray-100 sm:text-3xl">Pricing</h1>
-                    <p className="lg:w-2/3 mx-auto leading-relaxed text-gray-400">
-                        Choose the Subscription Plan that Best Fits Your Needs.
-                    </p>
+                    <h1 className="title-font mb-4 text-2xl font-medium text-gray-100 sm:text-3xl">{t('pricing.title')}</h1>
+                    <p className="lg:w-2/3 mx-auto leading-relaxed text-gray-400">{t('pricing.desc')}</p>
                 </div>
                 <div className="space-y-8 sm:gap-6 lg:grid lg:grid-cols-3 lg:space-y-0 xl:gap-10">
                     <div className="mx-auto flex max-w-lg flex-col rounded-lg border border-gray-100 p-6 text-center text-white shadow xl:p-8 hover:scale-105">
