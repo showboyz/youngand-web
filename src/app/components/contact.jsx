@@ -1,8 +1,10 @@
 "use client";
 import { useState, forwardRef } from 'react';
+import { useI18n } from "@/context/I18nProvider";
 
 // Contact 컴포넌트를 forwardRef로 수정
 const Contact = forwardRef((props, ref) => {
+    const { t } = useI18n();
     const [formData, setFormData] = useState({
         name: '',
         email: '',
@@ -57,13 +59,11 @@ const Contact = forwardRef((props, ref) => {
             <div className="container mx-auto px-5 sm:px-6 lg:px-8">
                 <div className="flex flex-col justify-center items-center gap-x-16 gap-y-5 xl:gap-28 lg:flex-row lg:justify-between max-lg:max-w-2xl mx-auto max-w-full">
                     <div className="w-full lg:w-1/2">
-                        <h1 className="text-gray-100 text-4xl font-bold">Get in Touch</h1>
-                        <p className="text-sm text-gray-500 mt-4">
-                            Interested in our product? Feel free to reach out anytime. We welcome your inquiries and are here to assist you with whatever you need!
-                        </p>
+                        <h1 className="text-gray-100 text-4xl font-bold">{t('contact.title')}</h1>
+                        <p className="text-sm text-gray-500 mt-4">{t('contact.subtitle')}</p>
 
                         <div className="mt-12">
-                            <h2 className="text-gray-100 text-base font-bold">Email</h2>
+                            <h2 className="text-gray-100 text-base font-bold">{t('contact.emailLabel')}</h2>
                             <ul className="mt-4">
                                 <li className="flex items-center">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" fill='#67e8f9'
@@ -79,7 +79,7 @@ const Contact = forwardRef((props, ref) => {
                             </ul>
                         </div>
                         <div className="mt-12">
-                            <h2 className="text-gray-100 text-base font-bold">Office</h2>
+                            <h2 className="text-gray-100 text-base font-bold">{t('contact.officeLabel')}</h2>
                             <ul className="mt-4">
                                 <li className="flex items-center">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" fill='#67e8f9' viewBox="0 0 473.806 473.806">
@@ -99,7 +99,7 @@ const Contact = forwardRef((props, ref) => {
                             <input
                                 type="text"
                                 name="name"
-                                placeholder="Name"
+                                placeholder={t('contact.placeholders.name')}
                                 className="w-full rounded-md py-3 px-4 bg-gray-100 text-gray-800 text-[16px] outline-cyan-200 focus:bg-gray-100"
                                 value={formData.name}
                                 onChange={handleChange}
@@ -108,7 +108,7 @@ const Contact = forwardRef((props, ref) => {
                             <input
                                 type="email"
                                 name="email"
-                                placeholder="Email"
+                                placeholder={t('contact.placeholders.email')}
                                 className="w-full rounded-md py-3 px-4 bg-gray-100 text-gray-800 text-[16px] outline-cyan-200 focus:bg-gray-100"
                                 value={formData.email}
                                 onChange={handleChange}
@@ -117,7 +117,7 @@ const Contact = forwardRef((props, ref) => {
                             <input
                                 type="text"
                                 name="subject"
-                                placeholder="Subject"
+                                placeholder={t('contact.placeholders.subject')}
                                 className="w-full rounded-md py-3 px-4 bg-gray-100 text-gray-800 text-[16px] outline-cyan-200 focus:bg-gray-100"
                                 value={formData.subject}
                                 onChange={handleChange}
@@ -125,7 +125,7 @@ const Contact = forwardRef((props, ref) => {
                             />
                             <textarea
                                 name="message"
-                                placeholder="Message"
+                                placeholder={t('contact.placeholders.message')}
                                 rows="6"
                                 className="w-full rounded-md py-3 px-4 bg-gray-100 text-gray-800 text-[16px] outline-cyan-200 focus:bg-gray-100"
                                 value={formData.message}
@@ -136,7 +136,7 @@ const Contact = forwardRef((props, ref) => {
                                 type="submit"
                                 className="text-white bg-cyan-400 hover:bg-cyan-900 tracking-wide rounded-md text-[16px] px-4 py-3 w-full !mt-6"
                             >
-                                Send
+                                {t('contact.send')}
                             </button>
                             {status && <p className="mt-4 text-sm text-gray-500">{status}</p>}
                         </form>

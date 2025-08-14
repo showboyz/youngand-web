@@ -1,0 +1,285 @@
+"use client";
+
+import React, { createContext, useContext, useEffect, useMemo, useState } from "react";
+
+const I18nContext = createContext({
+  lang: "ENG",
+  setLang: (_v) => {},
+  t: (key) => key,
+});
+
+const translations = {
+  ENG: {
+    navi: { about: "About" },
+    main: {
+      banner: "Transform Your Health with Digital Health Solutions",
+      title: "Next-Gen AI Cognitive Training Solutions",
+      subtitle:
+        "Revolutionizing Mental Health and Cognitive Care Through AI and Innovative Technology to Support, Prevent, and Transform Lives.",
+    },
+    hero: {
+      title: "Brain Health Playground",
+      desc:
+        "This digital health solution uses AI and computer vision to monitor early signs of cognitive decline and deliver personalized cognitive training programs. Our system provides an effective approach for cognitive monitoring and support, helping users maintain and enhance their cognitive function.",
+      contact: "Contact Us",
+    },
+    features: {
+      title: "Key Features",
+      items: [
+        "Motion Tracking",
+        "Voice Recognition",
+        "Health Monitoring",
+        "Data Analysis",
+      ],
+    },
+    testimonials: {
+      title: "Testimonials",
+      desc: "Discover Why Our Clients Trust Us—Read Their Stories and Feedback.",
+    },
+    dual: {
+      title: "AI Monitoring & Cognitive Training",
+      description:
+        "Contactless vital and emotion tracking using rPPG, motion, and facial analysis — paired with adaptive, data‑driven exercises tailored for seniors.",
+      left: {
+        kicker: "Real‑time Monitoring",
+        title: "Vitals and Emotion at a Glance",
+        subtitle: "rPPG · Facial Expression · Motion",
+      },
+      right: {
+        kicker: "Personalized Training",
+        title: "Adaptive Cognitive Exercise",
+        subtitle: "Real‑time feedback with difficulty that fits each user",
+      },
+    },
+    contents: {
+      title: "The significance of intervention",
+      lead:
+        "Despite the inability of dementia prevention to halt disease progression, it is of paramount importance in enhancing the quality of life of patients and alleviating the burden on their families.",
+      cards: [
+        {
+          kicker: "AI Analysis for Cognitive Screening",
+          title: "Digital Cognitive Assessment",
+          desc: "Utilize a digital MMSE for AI-enhanced, personalized cognitive assessments tailored to your unique profile.",
+        },
+        {
+          kicker: "Assessing Functional Abilities",
+          title: "Physical Capability Scale",
+          desc: "It is essential to evaluate and tailor care in order to enhance seniors' daily functions and independence.",
+        },
+        {
+          kicker: "Dual-Tasking",
+          title: "Digital Cognitive Training",
+          desc: "Enhance movement, reaction time, balance, and vocal precision through dual-tasking video and audio analysis.",
+        },
+        {
+          kicker: "Wellness Consultation",
+          title: "Real-time Expert Advice",
+          desc: "Receive personalized cognitive training, guided by expert recommendations based on your detailed training history.",
+        },
+      ],
+    },
+    events: {
+      headerTitle: "Your Ultimate Partner in Preserving Memory",
+      headerDesc:
+        "Discover a range of cognitive exercises that effortlessly stimulate your brain and enhance memory in your daily life. Utilizing scientifically proven methods, our app helps reduce the risk of dementia and prepares you for a healthy and vibrant future.",
+      items: [
+        {
+          kicker: "Interactive Cognitive Exercises",
+          title: "Engaging Mind and Body",
+          desc: "Strengthen both your mind and body through interactive exercises designed to boost cognitive function while keeping you physically active.",
+        },
+        {
+          kicker: "Daily Cognitive Challenges",
+          title: "Stay Active, Stay Sharp",
+          desc: "Engage in daily challenges that stimulate your brain and enhance memory, ensuring you stay sharp and focused throughout your day.",
+        },
+        {
+          kicker: "Holistic Brain Health",
+          title: "Mindful Movements",
+          desc: "Experience the benefits of combining physical activity with cognitive training, promoting holistic brain health and overall well-being.",
+        },
+        {
+          kicker: "Integrated Cognitive and Physical Training",
+          title: "Fitness for the Mind",
+          desc: "Our program integrates cognitive training with physical exercises, helping you maintain both mental sharpness and physical fitness.",
+        },
+        {
+          kicker: "Social and Cognitive Engagement",
+          title: "Connect and Improve",
+          desc: "Connect with others while engaging in cognitive exercises designed to improve memory and social interaction, all from the comfort of your home.",
+        },
+        {
+          kicker: "Tailored Cognitive Routines",
+          title: "Personalized Brain Workouts",
+          desc: "Enjoy personalized cognitive routines that adapt to your individual needs, helping you maintain a healthy brain and a vibrant lifestyle.",
+        },
+      ],
+    },
+    faq: {
+      headingKicker: "FAQs",
+      headingTitle: "Looking for answers?",
+      q1: "Which organizations are best suited to use this service?",
+      a1: "Our service offers flexible options tailored to the specific needs, type, and preferences of your organization. It has been successfully implemented in a variety of settings, including senior welfare facilities, sports facilities, public institutions, and large corporations, with each using the service in unique ways. If you're interested in adopting our service, feel free to contact us, and we'll be happy to provide you with more information.",
+      q2: "Can elderly individuals of advanced age use this service?",
+      a2: "Yes, the service has been specifically designed with the needs of elderly users in mind. The program flow, screen layout, and font size have all been optimized for ease of use. We have received very positive feedback from elderly users, and we continuously incorporate their suggestions to improve the service. Elderly individuals can comfortably and effectively use this service.",
+      q3: "How is the service managed after purchase?",
+      a3: "After the contract is finalized, we provide personalized consulting on the operation of the service. This includes guidance on how to utilize the service effectively and instructions on using the monitoring dashboard. Should any issues arise during usage, our dedicated support team is readily available to respond quickly and resolve any concerns.",
+    },
+    pricing: {
+      title: "Pricing",
+      desc: "Choose the Subscription Plan that Best Fits Your Needs.",
+    },
+    contact: {
+      title: "Get in Touch",
+      subtitle:
+        "Interested in our product? Feel free to reach out anytime. We welcome your inquiries and are here to assist you with whatever you need!",
+      emailLabel: "Email",
+      officeLabel: "Office",
+      placeholders: { name: "Name", email: "Email", subject: "Subject", message: "Message" },
+      send: "Send",
+      status: { sending: "Sending...", success: "Email sent successfully!", fail: "Failed to send email." },
+    },
+  },
+  KOR: {
+    navi: { about: "소개" },
+    main: {
+      banner: "건강의 패러다임을 바꾸다",
+      title: "AI 기반 인지 건강 솔루션",
+      subtitle:
+        "AI와 첨단 디지털 헬스케어 기술로 정신 건강과 인지 기능 관리의 새로운 표준을 제시합니다. 예방·지원·삶의 질 향상을 한 단계 끌어올립니다.",
+    },
+    hero: {
+      title: "뇌건강놀이터",
+      desc:
+        "AI와 컴퓨터 비전 기술을 활용해 인지 기능 저하의 조기 징후를 정밀 모니터링하고, 개인 맞춤형 인지 훈련 프로그램을 제공합니다. 과학적으로 검증된 방법으로 인지 기능의 유지와 향상을 돕습니다.",
+      contact: "문의하기",
+    },
+    features: {
+      title: "핵심 기능",
+      items: [
+        "정밀 동작 추적",
+        "고도화 음성 인식",
+        "건강 지표 모니터링",
+        "맞춤형 데이터 분석",
+      ],
+    },
+    testimonials: {
+      title: "도입 사례",
+      desc: "다양한 기관과 고객이 선택한 이유를 실제 사례를 통해 확인하세요.",
+    },
+    contents: {
+      title: "조기 예방의 중요성",
+      lead:
+        "치매 예방이 질환의 진행을 완전히 멈출 수는 없지만, 환자의 삶의 질 향상과 가족의 부담 경감 측면에서 그 효과는 매우 큽니다.",
+      cards: [
+        {
+          kicker: "AI 기반 인지 기능 선별",
+          title: "디지털 인지 평가",
+          desc: "디지털 MMSE 기반 AI 알고리즘으로 개인 맞춤형 인지 평가를 수행합니다.",
+        },
+        {
+          kicker: "일상 기능 평가",
+          title: "신체 기능 척도",
+          desc: "자립성과 일상 수행 능력을 높이기 위한 필수 평가 지표를 제공합니다.",
+        },
+        {
+          kicker: "인지·신체 동시 자극",
+          title: "디지털 인지 훈련",
+          desc: "영상·음성 분석으로 움직임, 반응속도, 균형감, 언어 표현 능력을 종합적으로 향상시킵니다.",
+        },
+        {
+          kicker: "웰빙 전문가 상담",
+          title: "실시간 전문가 자문",
+          desc: "훈련 및 평가 데이터를 기반으로 개인별 최적화된 인지 훈련을 제공합니다.",
+        },
+      ],
+    },
+    events: {
+      headerTitle: "기억을 지키는 파트너",
+      headerDesc:
+        "일상을 방해하지 않는 다양한 인지 훈련으로 뇌를 자극하고 기억력을 강화하세요. 과학적 근거를 바탕으로 치매 위험을 낮추고 건강한 미래를 준비합니다.",
+      items: [
+        { kicker: "인터랙티브 인지 훈련", title: "마음과 몸의 몰입", desc: "신체 활동과 인지 자극을 결합한 몰입형 훈련으로 전반적인 뇌 기능을 향상합니다." },
+        { kicker: "데일리 인지 챌린지", title: "매일 더 선명하게", desc: "하루 10분, 집중력과 기억력을 자극하는 맞춤형 훈련으로 일상에 활력을 더합니다." },
+        { kicker: "전인적 뇌 건강 솔루션", title: "마인드풀 무브먼트", desc: "인지 훈련과 신체 활동의 결합으로 뇌 건강과 전반적인 웰빙을 촉진합니다." },
+        { kicker: "통합형 인지·운동 프로그램", title: "두뇌 피트니스", desc: "인지 훈련과 운동을 통합하여 정신적 예리함과 신체적 활력을 동시에 유지합니다." },
+        { kicker: "사회·인지 상호작용", title: "연결과 개선", desc: "집에서도 가능한 상호작용형 훈련으로 기억력과 사회성을 함께 높입니다." },
+        { kicker: "맞춤 인지 루틴", title: "개인화 두뇌 운동", desc: "사용자 상태에 맞춰 난이도를 조절하는 루틴으로 장기적인 뇌 건강을 지원합니다." },
+      ],
+    },
+    faq: {
+      headingKicker: "자주 묻는 질문",
+      headingTitle: "무엇이든 물어보세요",
+      q1: "어떤 기관에서 활용하기 적합한가요?",
+      a1: "복지 시설, 재활 병원, 스포츠 센터, 공공기관, 대기업 웰니스 프로그램 등 다양한 환경에서 활용 가능합니다. 기관의 특성과 운영 환경에 맞춘 맞춤형 도입 방안을 제안드립니다.",
+      q2: "고령자도 쉽게 사용할 수 있나요?",
+      a2: "고령 친화적 UX를 최우선으로 설계했습니다. 큰 글씨, 직관적인 인터페이스, 단순화된 동작 구조로 누구나 쉽게 사용할 수 있습니다.",
+      q3: "도입 후 지원은 어떻게 이루어지나요?",
+      a3: "전담 컨설턴트가 초기 세팅부터 운영, 데이터 분석까지 지원합니다. 정기 모니터링과 피드백을 제공하며, 기술 지원팀이 신속히 대응합니다.",
+    },
+    pricing: { title: "요금제", desc: "기관의 규모와 목적에 맞춘 다양한 구독 플랜을 제공합니다." },
+    contact: {
+      title: "문의하기",
+      subtitle: "서비스 도입 및 상담을 원하시면 언제든 연락 주세요. 빠르고 정확한 안내를 드립니다.",
+      emailLabel: "이메일",
+      officeLabel: "사무실",
+      placeholders: { name: "이름", email: "이메일", subject: "제목", message: "메시지" },
+      send: "보내기",
+      status: { sending: "전송 중...", success: "메일이 전송되었습니다.", fail: "메일 전송에 실패했습니다." },
+    },
+    dual: {
+      title: "AI 모니터링 & 인지 훈련",
+      description:
+        "rPPG·동작·표정 분석을 통한 비접촉 생체·감정 모니터링과 개인 맞춤형 인지 훈련을 제공합니다.",
+      left: {
+        kicker: "실시간 모니터링",
+        title: "생체·감정 한눈에",
+        subtitle: "rPPG · 표정 분석 · 동작 추적",
+      },
+      right: {
+        kicker: "개인 맞춤 훈련",
+        title: "적응형 인지 운동",
+        subtitle: "실시간 피드백과 난이도 자동 조정",
+      },
+    },
+  },
+};
+
+export function I18nProvider({ children }) {
+  const [lang, setLang] = useState("ENG");
+
+  useEffect(() => {
+    const stored = typeof window !== "undefined" ? window.localStorage.getItem("lang") : null;
+    if (stored === "KOR" || stored === "ENG") setLang(stored);
+  }, []);
+
+  useEffect(() => {
+    if (typeof window !== "undefined") window.localStorage.setItem("lang", lang);
+  }, [lang]);
+
+  const t = useMemo(() => {
+    const dict = translations[lang] || translations.ENG;
+    return (key) => {
+      const parts = key.split(".");
+      let cur = dict;
+      for (const p of parts) {
+        if (cur && Object.prototype.hasOwnProperty.call(cur, p)) {
+          cur = cur[p];
+        } else {
+          return key;
+        }
+      }
+      return cur;
+    };
+  }, [lang]);
+
+  const value = useMemo(() => ({ lang, setLang, t }), [lang, setLang, t]);
+
+  return <I18nContext.Provider value={value}>{children}</I18nContext.Provider>;
+}
+
+export function useI18n() {
+  return useContext(I18nContext);
+}
+
+

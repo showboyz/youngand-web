@@ -1,14 +1,15 @@
 "use client";
 
-import React, { useState } from 'react';
+import React from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
+import { useI18n } from '@/context/I18nProvider';
 
 export default function Navi() {
-    const [language, setLanguage] = useState('KOR');
+    const { lang, setLang } = useI18n();
 
     const toggleLanguage = () => {
-        setLanguage(language === 'KOR' ? 'ENG' : 'KOR');
+        setLang(lang === 'KOR' ? 'ENG' : 'KOR');
     };
 
     return (
@@ -49,7 +50,7 @@ export default function Navi() {
                     {/*    Product*/}
                     {/*</Link>*/}
                     <Link href="#" className="text-sm font-semibold leading-6 text-gray-100 hover:text-cyan-400 hover:scale-105">
-                        About
+                        {lang === 'KOR' ? '소개' : 'About'}
                     </Link>
 
                     {/* Language toggle button */}
@@ -57,7 +58,7 @@ export default function Navi() {
                         onClick={toggleLanguage}
                         className="flex items-center text-sm font-semibold leading-6 text-gray-100 hover:scale-105 hover:text-cyan-400"
                     >
-                        {language === 'KOR' ? (
+                        {lang === 'KOR' ? (
                             <>
                                 <Image
                                     src="https://flagcdn.com/w320/kr.png"

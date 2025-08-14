@@ -1,13 +1,14 @@
 import { Inter } from "next/font/google";
 import "./globals.css";
 import Head from "next/head";
+import { I18nProvider } from "@/context/I18nProvider";
 
 
 
 export const metadata = {
-  title: "Youngand - Health with Digital Therapeutics",
-  description: "Transform Your Health with Digital Therapeutics",
-  keywords: "digital therapeutics, health, wellness, cognitive training, dementia prevention, 영앤, youngand",
+  title: "Youngand - Health with Digital Health Solutions",
+  description: "Transform Your Health with Digital Health Solutions",
+  keywords: "digital health solutions, health, wellness, cognitive training, dementia prevention, 영앤, youngand",
   author: "youngand",
   url: "https://youngandx.com",
 };
@@ -35,7 +36,9 @@ export default function RootLayout({ children }) {
 
       </Head>
       <body>
-      {children}
+      <I18nProvider>
+        {children}
+      </I18nProvider>
       </body>
       </html>
   );

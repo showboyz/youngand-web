@@ -1,8 +1,10 @@
 "use client"
 import { useState } from "react";
+import { useI18n } from "@/context/I18nProvider";
 import Image from "next/image";
 
 export default function Faq() {
+    const { t } = useI18n();
     const [activeIndex, setActiveIndex] = useState(null);
 
     const toggleAccordion = (index) => {
@@ -30,10 +32,8 @@ export default function Faq() {
                     <div className="w-full lg:w-1/2">
                         <div className="lg:max-w-xl">
                             <div className="mb-6 lg:mb-16">
-                                <h6 className="text-lg text-center font-medium text-cyan-400 mb-2 lg:text-left">FAQs</h6>
-                                <h2 className="text-4xl text-center font-bold text-gray-100 leading-[3.25rem] mb-5 lg:text-left">
-                                    Looking for answers?
-                                </h2>
+                                <h6 className="text-lg text-center font-medium text-cyan-400 mb-2 lg:text-left">{t('faq.headingKicker')}</h6>
+                                <h2 className="text-4xl text-center font-bold text-gray-100 leading-[3.25rem] mb-5 lg:text-left">{t('faq.headingTitle')}</h2>
                             </div>
                             <div className="accordion-group">
                                 {/* FAQ Item 1 */}
@@ -43,7 +43,7 @@ export default function Faq() {
                                         aria-controls="basic-collapse-one"
                                         onClick={() => toggleAccordion(0)}
                                     >
-                                        <h5>Which organizations are best suited to use this service?</h5>
+                                        <h5>{t('faq.q1')}</h5>
                                         <svg
                                             className={`text-gray-100 transition duration-500 group-hover:text-cyan-400 ${
                                                 activeIndex === 0 ? "rotate-180" : ""
@@ -70,10 +70,7 @@ export default function Faq() {
                                         }`}
                                         aria-labelledby="basic-heading-one"
                                     >
-                                        <p className="text-base font-normal text-gray-400">
-                                            Our service offers flexible options tailored to the specific needs, type, and preferences of your organization. It has been successfully implemented in a variety of settings, including senior welfare facilities, sports facilities, public institutions, and large corporations, with each using the service in unique ways. If you&apos;re interested in adopting our service, feel free to contact us, and we&apos;ll be happy to provide you with more information.
-
-                                        </p>
+                                            <p className="text-base font-normal text-gray-400">{t('faq.a1')}</p>
                                     </div>
                                 </div>
 
@@ -84,7 +81,7 @@ export default function Faq() {
                                         aria-controls="basic-collapse-two"
                                         onClick={() => toggleAccordion(1)}
                                     >
-                                        <h5>Can elderly individuals of advanced age use this service?</h5>
+                                        <h5>{t('faq.q2')}</h5>
                                         <svg
                                             className={`text-gray-100 transition duration-500 group-hover:text-cyan-400 ${
                                                 activeIndex === 1 ? "rotate-180" : ""
@@ -111,9 +108,7 @@ export default function Faq() {
                                         }`}
                                         aria-labelledby="basic-heading-two"
                                     >
-                                        <p className="text-base font-normal text-gray-400">
-                                            Yes, the service has been specifically designed with the needs of elderly users in mind. The program flow, screen layout, and font size have all been optimized for ease of use. We have received very positive feedback from elderly users, and we continuously incorporate their suggestions to improve the service. Elderly individuals can comfortably and effectively use this service.
-                                        </p>
+                                            <p className="text-base font-normal text-gray-400">{t('faq.a2')}</p>
                                     </div>
                                 </div>
 
@@ -124,7 +119,7 @@ export default function Faq() {
                                         aria-controls="basic-collapse-three"
                                         onClick={() => toggleAccordion(2)}
                                     >
-                                        <h5>How is the service managed after purchase?</h5>
+                                        <h5>{t('faq.q3')}</h5>
                                         <svg
                                             className={`text-gray-100 transition duration-500 group-hover:text-cyan-400 ${
                                                 activeIndex === 2 ? "rotate-180" : ""
@@ -151,9 +146,7 @@ export default function Faq() {
                                         }`}
                                         aria-labelledby="basic-heading-three"
                                     >
-                                        <p className="text-base font-normal text-gray-400">
-                                            After the contract is finalized, we provide personalized consulting on the operation of the service. This includes guidance on how to utilize the service effectively and instructions on using the monitoring dashboard. Should any issues arise during usage, our dedicated support team is readily available to respond quickly and resolve any concerns.
-                                        </p>
+                                            <p className="text-base font-normal text-gray-400">{t('faq.a3')}</p>
                                     </div>
                                 </div>
                             </div>
