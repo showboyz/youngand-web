@@ -59,7 +59,7 @@ const translations = {
         {
           kicker: "AI Analysis for Cognitive Screening",
           title: "Digital Cognitive Assessment",
-          desc: "Utilize a digital MMSE for AI-enhanced, personalized cognitive assessments tailored to your unique profile.",
+          desc: "Utilize AI-enhanced, personalized cognitive assessments tailored to your unique profile for comprehensive brain health monitoring.",
         },
         {
           kicker: "Assessing Functional Abilities",
@@ -175,7 +175,7 @@ const translations = {
         {
           kicker: "AI 기반 인지 기능 선별",
           title: "디지털 인지 평가",
-          desc: "디지털 MMSE 기반 AI 알고리즘으로 개인 맞춤형 인지 평가를 수행합니다.",
+          desc: "AI 알고리즘 기반 개인 맞춤형 간이 인지 평가를 통해 종합적인 뇌 건강 모니터링을 제공합니다.",
         },
         {
           kicker: "일상 기능 평가",
