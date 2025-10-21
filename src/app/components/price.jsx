@@ -12,12 +12,12 @@ export default function Pricing() {
                 </div>
                 <div className="space-y-8 sm:gap-6 lg:grid lg:grid-cols-3 lg:space-y-0 xl:gap-10">
                     <div className="mx-auto flex max-w-lg flex-col rounded-lg border border-gray-100 p-6 text-center text-white shadow xl:p-8 hover:scale-105">
-                        <h3 className="mb-4 text-2xl font-semibold text-gray-100">Basic</h3>
+                        <h3 className="mb-4 text-2xl font-semibold text-gray-100">Standard</h3>
                         <p className="font-light text-gray-400 sm:text-lg">
-                            The ideal option for personal use in the comfort of your home.
+                            Monthly Subscription
                         </p>
                         <div className="my-8 flex items-baseline justify-center">
-                            <span className="mr-2 text-5xl font-extrabold text-white">$29</span>
+                            <span className="mr-2 text-5xl font-extrabold text-white">$50</span>
                             <span className="text-gray-400">/month</span>
                         </div>
                         <ul role="list" className="mb-8 space-y-4 text-left text-white">
@@ -25,30 +25,36 @@ export default function Pricing() {
                                 <svg className="h-5 w-5 flex-shrink-0 text-cyan-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
                                     <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd"></path>
                                 </svg>
-                                <span>Individual configuration</span>
+                                <span>Includes around 30 contents</span>
                             </li>
                             <li className="flex items-center space-x-3">
                                 <svg className="h-5 w-5 flex-shrink-0 text-cyan-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
                                     <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd"></path>
                                 </svg>
-                                <span>Real-time training monitoring</span>
+                                <span>Basic AI reports</span>
                             </li>
                             <li className="flex items-center space-x-3">
                                 <svg className="h-5 w-5 flex-shrink-0 text-cyan-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
                                     <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd"></path>
                                 </svg>
-                                <span>Free updates</span>
+                                <span>Up to 2 admins / 20 users</span>
+                            </li>
+                            <li className="flex items-center space-x-3">
+                                <svg className="h-5 w-5 flex-shrink-0 text-cyan-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                                    <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd"></path>
+                                </svg>
+                                <span>Admin Web Tool</span>
                             </li>
                         </ul>
                     </div>
 
                     <div className="mx-auto flex max-w-lg flex-col rounded-lg border border-gray-100 p-6 text-center text-white shadow xl:p-8 hover:scale-105">
-                        <h3 className="mb-4 text-2xl font-semibold text-gray-100">Premium</h3>
+                        <h3 className="mb-4 text-2xl font-semibold text-gray-100">Professional</h3>
                         <p className="font-light text-gray-400 sm:text-lg">
-                            The perfect solution for personal use and remote counseling.
+                            Monthly Subscription
                         </p>
                         <div className="my-8 flex items-baseline justify-center">
-                            <span className="mr-2 text-5xl font-extrabold text-white">$99</span>
+                            <span className="mr-2 text-5xl font-extrabold text-white">$100</span>
                             <span className="text-gray-400">/month</span>
                         </div>
                         <ul role="list" className="mb-8 space-y-4 text-left text-white">
@@ -56,25 +62,25 @@ export default function Pricing() {
                                 <svg className="h-5 w-5 flex-shrink-0 text-cyan-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
                                     <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd"></path>
                                 </svg>
-                                <span>Individual configuration</span>
+                                <span>Includes around 110 contents</span>
                             </li>
                             <li className="flex items-center space-x-3">
                                 <svg className="h-5 w-5 flex-shrink-0 text-cyan-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
                                     <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd"></path>
                                 </svg>
-                                <span>Real-time training monitoring</span>
+                                <span>Detailed AI reports</span>
                             </li>
                             <li className="flex items-center space-x-3">
                                 <svg className="h-5 w-5 flex-shrink-0 text-cyan-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
                                     <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd"></path>
                                 </svg>
-                                <span>Video health counseling & training</span>
+                                <span>Up to 5 admins / 50 users</span>
                             </li>
                             <li className="flex items-center space-x-3">
                                 <svg className="h-5 w-5 flex-shrink-0 text-cyan-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
                                     <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd"></path>
                                 </svg>
-                                <span>Free updates</span>
+                                <span>Advanced analytics features</span>
                             </li>
                         </ul>
                     </div>
@@ -82,36 +88,41 @@ export default function Pricing() {
                     <div className="mx-auto flex max-w-lg flex-col rounded-lg border border-gray-100 p-6 text-center text-white shadow xl:p-8 hover:scale-105">
                         <h3 className="mb-4 text-2xl font-semibold text-gray-100">Enterprise</h3>
                         <p className="font-light text-gray-400 sm:text-lg">
-                            Relevant for multiple users, extended & premium support.
+                            Monthly Subscription
                         </p>
                         <div className="my-8 flex items-baseline justify-center">
-                            <span className="mr-2 text-5xl font-extrabold text-white">$999</span>
-                            <span className="text-gray-400">/month</span>
+                            <span className="mr-2 text-5xl font-extrabold text-white">Custom</span>
                         </div>
                         <ul role="list" className="mb-8 space-y-4 text-left text-white">
                             <li className="flex items-center space-x-3">
                                 <svg className="h-5 w-5 flex-shrink-0 text-cyan-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
                                     <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd"></path>
                                 </svg>
-                                <span>Individual configuration</span>
+                                <span>All Professional features</span>
                             </li>
                             <li className="flex items-center space-x-3">
                                 <svg className="h-5 w-5 flex-shrink-0 text-cyan-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
                                     <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd"></path>
                                 </svg>
-                                <span>User size: <span className="font-semibold">100+ Users</span></span>
+                                <span>SSO (Single Sign-On)</span>
                             </li>
                             <li className="flex items-center space-x-3">
                                 <svg className="h-5 w-5 flex-shrink-0 text-cyan-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
                                     <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd"></path>
                                 </svg>
-                                <span>Premium support: <span className="font-semibold">24 months</span></span>
+                                <span>Enhanced security</span>
                             </li>
                             <li className="flex items-center space-x-3">
                                 <svg className="h-5 w-5 flex-shrink-0 text-cyan-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
                                     <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd"></path>
                                 </svg>
-                                <span>Free updates</span>
+                                <span>Customization options</span>
+                            </li>
+                            <li className="flex items-center space-x-3">
+                                <svg className="h-5 w-5 flex-shrink-0 text-cyan-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                                    <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd"></path>
+                                </svg>
+                                <span>API integration</span>
                             </li>
                         </ul>
                     </div>
