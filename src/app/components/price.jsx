@@ -10,9 +10,9 @@ export default function Pricing() {
                     <h1 className="title-font mb-4 text-2xl font-medium text-gray-100 sm:text-3xl">{t('pricing.title')}</h1>
                     <p className="lg:w-2/3 mx-auto leading-relaxed text-gray-400">{t('pricing.desc')}</p>
                 </div>
-                <div className="space-y-8 sm:gap-6 lg:grid lg:grid-cols-3 lg:space-y-0 xl:gap-10">
+                <div className="space-y-8 sm:gap-4 lg:grid lg:grid-cols-3 lg:space-y-0 xl:gap-6">
                     {/* Standard Plan */}
-                    <div className="mx-auto flex h-full max-w-lg flex-col rounded-2xl border-2 border-gray-700 bg-gradient-to-br from-gray-800 to-gray-900 p-8 text-center text-white shadow-xl transition-all duration-300 hover:border-cyan-500 hover:shadow-2xl hover:shadow-cyan-500/20 hover:-translate-y-2">
+                    <div className="flex h-full w-full flex-col rounded-2xl border-2 border-gray-700 bg-gradient-to-br from-gray-800 to-gray-900 p-8 text-center text-white shadow-xl transition-all duration-300 hover:border-cyan-500 hover:shadow-2xl hover:shadow-cyan-500/20 hover:-translate-y-2">
                         <h3 className="mb-2 text-3xl font-bold text-white">Standard</h3>
                         <p className="mb-6 text-sm font-light text-gray-400">
                             Monthly Subscription
@@ -50,7 +50,7 @@ export default function Pricing() {
                     </div>
 
                     {/* Professional Plan */}
-                    <div className="mx-auto flex h-full max-w-lg flex-col rounded-2xl border-2 border-cyan-500 bg-gradient-to-br from-gray-800 to-gray-900 p-8 text-center text-white shadow-2xl shadow-cyan-500/30 transition-all duration-300 hover:shadow-cyan-500/50 hover:-translate-y-2 relative">
+                    <div className="flex h-full w-full flex-col rounded-2xl border-2 border-cyan-500 bg-gradient-to-br from-gray-800 to-gray-900 p-8 text-center text-white shadow-2xl shadow-cyan-500/30 transition-all duration-300 hover:shadow-cyan-500/50 hover:-translate-y-2 relative">
                         <div className="absolute -top-4 left-1/2 transform -translate-x-1/2 bg-gradient-to-r from-cyan-500 to-blue-500 text-white px-4 py-1 rounded-full text-sm font-semibold">
                             Popular
                         </div>
@@ -91,7 +91,7 @@ export default function Pricing() {
                     </div>
 
                     {/* Enterprise Plan */}
-                    <div className="mx-auto flex h-full max-w-lg flex-col rounded-2xl border-2 border-gray-700 bg-gradient-to-br from-gray-800 to-gray-900 p-8 text-center text-white shadow-xl transition-all duration-300 hover:border-purple-500 hover:shadow-2xl hover:shadow-purple-500/20 hover:-translate-y-2">
+                    <div className="flex h-full w-full flex-col rounded-2xl border-2 border-gray-700 bg-gradient-to-br from-gray-800 to-gray-900 p-8 text-center text-white shadow-xl transition-all duration-300 hover:border-purple-500 hover:shadow-2xl hover:shadow-purple-500/20 hover:-translate-y-2">
                         <h3 className="mb-2 text-3xl font-bold text-white">Enterprise</h3>
                         <p className="mb-6 text-sm font-light text-gray-400">
                             Monthly Subscription
