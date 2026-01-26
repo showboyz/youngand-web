@@ -18,7 +18,7 @@ export default function Pricing() {
                             Monthly Subscription
                         </p>
                         <div className="mb-8 flex items-baseline justify-center">
-                            <span className="mr-2 text-6xl font-extrabold bg-gradient-to-r from-cyan-400 to-blue-500 bg-clip-text text-transparent">$50</span>
+                            <span className="mr-2 text-6xl font-extrabold bg-gradient-to-r from-cyan-400 to-blue-500 bg-clip-text text-transparent">$100</span>
                             <span className="text-gray-400 text-lg">/month</span>
                         </div>
                         <ul role="list" className="mb-8 flex-grow space-y-4 text-left">
@@ -59,7 +59,7 @@ export default function Pricing() {
                             Monthly Subscription
                         </p>
                         <div className="mb-8 flex items-baseline justify-center">
-                            <span className="mr-2 text-6xl font-extrabold bg-gradient-to-r from-cyan-400 to-blue-500 bg-clip-text text-transparent">$100</span>
+                            <span className="mr-2 text-6xl font-extrabold bg-gradient-to-r from-cyan-400 to-blue-500 bg-clip-text text-transparent">$300</span>
                             <span className="text-gray-400 text-lg">/month</span>
                         </div>
                         <ul role="list" className="mb-8 flex-grow space-y-4 text-left">
