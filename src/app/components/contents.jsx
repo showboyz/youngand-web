@@ -17,7 +17,7 @@ export default function Contents(){
                 <div className="flex flex-wrap -m-4">
                     <div className="xl:w-1/4 md:w-1/2 p-4">
                         <div className="relative border-[0.5px] border-white/40 h-full bg-gradient-to-b from-slate-950 to-stone-800 backdrop-blur-sm p-8 rounded shadow-[0_35px_60px_-15px_rgba(255,255,255,0.2)] ring-1 ring-gray-900/5 h-full">
-                            <Image className="h-40 rounded w-full object-cover object-center hover:object-scale-down mb-6" src="https://github.com/showboyz/showboyz.github.io/blob/main/Desktop_1.png?raw=true" alt="content" width={500} height={400}/>
+                            <Image className="h-40 rounded w-full object-cover object-center hover:object-scale-down mb-6" src="/images/desktop-1.webp" alt="content" width={500} height={400}/>
                             <h3 className="tracking-widest text-cyan-400 text-xs font-medium title-font">{t('contents.cards.0.kicker')}</h3>
                             <h2 className="text-lg text-gray-100 font-medium title-font mb-4">{t('contents.cards.0.title')}</h2>
                             <p className="leading-relaxed text-base text-gray-400 mt-auto">{t('contents.cards.0.desc')}</p>
@@ -25,7 +25,7 @@ export default function Contents(){
                     </div>
                     <div className="xl:w-1/4 md:w-1/2 p-4">
                         <div className="relative border-[0.5px] border-white/40 h-full bg-gradient-to-b from-slate-950 to-stone-800 backdrop-blur-sm p-8 rounded shadow-[0_35px_60px_-15px_rgba(255,255,255,0.2)] ring-1 ring-gray-900/5 h-full">
-                            <Image className="h-40 rounded w-full object-cover object-center hover:object-scale-down mb-6" src="https://github.com/showboyz/showboyz.github.io/blob/main/Desktop_2.png?raw=true" alt="content" width={500} height={400}/>
+                            <Image className="h-40 rounded w-full object-cover object-center hover:object-scale-down mb-6" src="/images/desktop-2.webp" alt="content" width={500} height={400}/>
                             <h3 className="tracking-widest text-cyan-400 text-xs font-medium title-font">{t('contents.cards.1.kicker')}</h3>
                             <h2 className="text-lg text-gray-100 font-medium title-font mb-4">{t('contents.cards.1.title')}</h2>
                             <p className="leading-relaxed text-base mt-auto text-gray-400">{t("contents.cards.1.desc")}</p>
@@ -33,7 +33,7 @@ export default function Contents(){
                     </div>
                     <div className="xl:w-1/4 md:w-1/2 p-4">
                         <div className="relative border-[0.5px] border-white/40 h-full bg-gradient-to-b from-slate-950 to-stone-800 backdrop-blur-sm p-8 rounded shadow-[0_35px_60px_-15px_rgba(255,255,255,0.2)] ring-1 ring-gray-900/5 h-full">
-                            <Image className="h-40 rounded w-full object-cover object-center hover:object-scale-down mb-6" src="https://github.com/showboyz/showboyz.github.io/blob/main/Desktop_3.png?raw=true" alt="content" width={500} height={400}/>
+                            <Image className="h-40 rounded w-full object-cover object-center hover:object-scale-down mb-6" src="/images/desktop-3.webp" alt="content" width={500} height={400}/>
                             <h3 className="tracking-widest text-cyan-400 text-xs font-medium title-font">{t('contents.cards.2.kicker')}</h3>
                             <h2 className="text-lg text-gray-100 font-medium title-font mb-4">{t('contents.cards.2.title')}</h2>
                             <p className="leading-relaxed text-base mt-auto text-gray-400">{t('contents.cards.2.desc')}</p>
@@ -41,7 +41,7 @@ export default function Contents(){
                     </div>
                     <div className="xl:w-1/4 md:w-1/2 p-4">
                         <div className="relative border-[0.5px] border-white/40 h-full bg-gradient-to-b from-slate-950 to-stone-800 backdrop-blur-sm p-8 rounded shadow-[0_35px_60px_-15px_rgba(255,255,255,0.2)] ring-1 ring-gray-900/5 h-full">
-                            <Image className="h-40 rounded w-full object-cover object-center hover:object-scale-down mb-6" src="https://github.com/showboyz/showboyz.github.io/blob/main/Desktop_4.png?raw=true" alt="content" width={500} height={400}/>
+                            <Image className="h-40 rounded w-full object-cover object-center hover:object-scale-down mb-6" src="/images/desktop-4.webp" alt="content" width={500} height={400}/>
                             <h3 className="tracking-widest text-cyan-400 text-xs font-medium title-font">{t('contents.cards.3.kicker')}</h3>
                             <h2 className="text-lg text-gray-100 font-medium title-font mb-4">{t('contents.cards.3.title')}</h2>
                             <p className="leading-relaxed text-base mt-auto text-gray-400">{t('contents.cards.3.desc')}</p>

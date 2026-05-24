@@ -37,8 +37,8 @@ export default function Home() {
     <Hero scrollToContact={scrollToContact} />
     {/* Dual showcase under HERO */}
     <DualShowcase
-      leftImageUrl="https://github.com/showboyz/showboyz.github.io/blob/main/1231233.png?raw=true"
-      rightImageUrl="https://github.com/showboyz/showboyz.github.io/blob/main/323322.png?raw=true"
+      leftImageUrl="/images/dual-left.webp"
+      rightImageUrl="/images/dual-right.webp"
       title={t('dual.title')}
       description={t('dual.description')}
       leftOverlay={{

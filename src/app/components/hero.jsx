@@ -14,7 +14,7 @@ export default function Hero({ scrollToContact }) {
                     <Image
                         className="rounded object-cover object-center"
                         alt="hero"
-                        src="https://github.com/showboyz/showboyz.github.io/blob/main/Pro%20Display%20XDR%20Front%20View%20Mockup.png?raw=true"
+                        src="/images/hero-mockup.webp"
                         width={600}  // 가로 크기 설정
                         height={400} // 세로 크기 설정
                     />

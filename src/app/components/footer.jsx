@@ -7,7 +7,7 @@ export default function Footer() {
             <div className="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col">
                 <a className="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
                     <Image
-                        src="https://github.com/showboyz/showboyz.github.io/blob/main/logo4.png?raw=true"
+                        src="/images/logo.webp"
                         className="w-100 h-12 text-white p-2"
                         alt="Logo"
                         width={130}
