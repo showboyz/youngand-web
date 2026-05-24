@@ -59,7 +59,7 @@ export default function Home() {
     <Features/>
     <Events/>
     {/* <Imageslider/> */}
-    <Pricing/>
+    {/* <Pricing/> */}
     <Testimonials/>
     <Faq/>
     {/* FOOTER */}
