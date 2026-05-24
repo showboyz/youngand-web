@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { useI18n } from "@/context/I18nProvider";
 
-export default function Pricing() {
+export default function Pricing({ scrollToContact }) {
     const { t } = useI18n();
     return (
         <section>
@@ -17,9 +17,9 @@ export default function Pricing() {
                         <p className="mb-6 text-sm font-light text-gray-400">
                             Monthly Subscription
                         </p>
-                        <div className="mb-8 flex items-baseline justify-center">
-                            <span className="mr-2 text-6xl font-extrabold bg-gradient-to-r from-cyan-400 to-blue-500 bg-clip-text text-transparent">$100</span>
-                            <span className="text-gray-400 text-lg">/month</span>
+                        <div className="mb-8 flex flex-col items-center justify-center">
+                            <span className="text-4xl font-extrabold bg-gradient-to-r from-cyan-400 to-blue-500 bg-clip-text text-transparent">Custom Pricing</span>
+                            <span className="mt-2 text-sm text-gray-400">Tailored to your organization</span>
                         </div>
                         <ul role="list" className="mb-8 flex-grow space-y-4 text-left">
                             <li className="flex items-start space-x-3">
@@ -47,6 +47,11 @@ export default function Pricing() {
                                 <span className="text-gray-200">Admin Web Tool</span>
                             </li>
                         </ul>
+                        <button
+                            onClick={scrollToContact}
+                            className="mt-auto inline-flex w-full items-center justify-center rounded-lg bg-gradient-to-r from-cyan-500 to-blue-500 px-5 py-3 font-semibold text-white transition-all duration-300 hover:from-cyan-400 hover:to-blue-400 hover:shadow-lg hover:shadow-cyan-500/30 focus:outline-none">
+                            Contact us for pricing
+                        </button>
                     </div>
 
                     {/* Professional Plan */}
@@ -58,9 +63,9 @@ export default function Pricing() {
                         <p className="mb-6 text-sm font-light text-gray-400">
                             Monthly Subscription
                         </p>
-                        <div className="mb-8 flex items-baseline justify-center">
-                            <span className="mr-2 text-6xl font-extrabold bg-gradient-to-r from-cyan-400 to-blue-500 bg-clip-text text-transparent">$300</span>
-                            <span className="text-gray-400 text-lg">/month</span>
+                        <div className="mb-8 flex flex-col items-center justify-center">
+                            <span className="text-4xl font-extrabold bg-gradient-to-r from-cyan-400 to-blue-500 bg-clip-text text-transparent">Custom Pricing</span>
+                            <span className="mt-2 text-sm text-gray-400">Tailored to your organization</span>
                         </div>
                         <ul role="list" className="mb-8 flex-grow space-y-4 text-left">
                             <li className="flex items-start space-x-3">
@@ -88,6 +93,11 @@ export default function Pricing() {
                                 <span className="text-gray-200">Advanced analytics features</span>
                             </li>
                         </ul>
+                        <button
+                            onClick={scrollToContact}
+                            className="mt-auto inline-flex w-full items-center justify-center rounded-lg bg-gradient-to-r from-cyan-500 to-blue-500 px-5 py-3 font-semibold text-white transition-all duration-300 hover:from-cyan-400 hover:to-blue-400 hover:shadow-lg hover:shadow-cyan-500/30 focus:outline-none">
+                            Contact us for pricing
+                        </button>
                     </div>
 
                     {/* Enterprise Plan */}
@@ -96,8 +106,9 @@ export default function Pricing() {
                         <p className="mb-6 text-sm font-light text-gray-400">
                             Monthly Subscription
                         </p>
-                        <div className="mb-8 flex items-baseline justify-center">
-                            <span className="text-5xl font-extrabold bg-gradient-to-r from-purple-400 to-pink-500 bg-clip-text text-transparent">Custom</span>
+                        <div className="mb-8 flex flex-col items-center justify-center">
+                            <span className="text-4xl font-extrabold bg-gradient-to-r from-purple-400 to-pink-500 bg-clip-text text-transparent">Custom Pricing</span>
+                            <span className="mt-2 text-sm text-gray-400">Tailored to your organization</span>
                         </div>
                         <ul role="list" className="mb-8 flex-grow space-y-4 text-left">
                             <li className="flex items-start space-x-3">
@@ -131,6 +142,11 @@ export default function Pricing() {
                                 <span className="text-gray-200">API integration</span>
                             </li>
                         </ul>
+                        <button
+                            onClick={scrollToContact}
+                            className="mt-auto inline-flex w-full items-center justify-center rounded-lg bg-gradient-to-r from-purple-500 to-pink-500 px-5 py-3 font-semibold text-white transition-all duration-300 hover:from-purple-400 hover:to-pink-400 hover:shadow-lg hover:shadow-purple-500/30 focus:outline-none">
+                            Contact us for pricing
+                        </button>
                     </div>
                 </div>
             </div>
