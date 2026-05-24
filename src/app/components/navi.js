@@ -20,7 +20,7 @@ export default function Navi() {
                         <span className="sr-only">youngand</span>
                         <Image
                             className="h-8 w-auto"
-                            src="https://github.com/showboyz/showboyz.github.io/blob/main/logo4.png?raw=true"
+                            src="/images/logo.webp"
                             alt="youngand"
                             width={32}
                             height={32}

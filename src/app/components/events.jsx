@@ -17,7 +17,7 @@ export default function Events() {
                             <Image
                                 alt="gallery"
                                 className="absolute inset-0 w-full h-full object-cover filter grayscale"
-                                src="https://github.com/showboyz/showboyz.github.io/blob/main/IMG_7346.JPG?raw=true"
+                                src="/images/event-1.webp"
                                 fill
                                 style={{objectFit: 'cover'}}
                             />
@@ -34,7 +34,7 @@ export default function Events() {
                             <Image
                                 alt="gallery"
                                 className="absolute inset-0 w-full h-full object-cover filter grayscale"
-                                src="https://github.com/showboyz/showboyz.github.io/blob/main/IMG_7348.JPG?raw=true"
+                                src="/images/event-2.webp"
                                 fill
                                 style={{objectFit: 'cover'}}
                             />
@@ -51,7 +51,7 @@ export default function Events() {
                             <Image
                                 alt="gallery"
                                 className="absolute inset-0 w-full h-full object-cover filter grayscale"
-                                src="https://github.com/showboyz/showboyz.github.io/blob/main/IMG_7360.JPG?raw=true"
+                                src="/images/event-3.webp"
                                 fill
                                 style={{objectFit: 'cover'}}
                             />
@@ -69,7 +69,7 @@ export default function Events() {
                             <Image
                                 alt="gallery"
                                 className="absolute inset-0 w-full h-full object-cover filter grayscale"
-                                src="https://github.com/showboyz/showboyz.github.io/blob/main/IMG_7377.jpg?raw=true"
+                                src="/images/event-4.webp"
                                 fill
                                 style={{objectFit: 'cover'}}
                             />
@@ -86,7 +86,7 @@ export default function Events() {
                             <Image
                                 alt="gallery"
                                 className="absolute inset-0 w-full h-full object-cover filter grayscale"
-                                src="https://github.com/showboyz/showboyz.github.io/blob/main/IMG_7353.JPG?raw=true"
+                                src="/images/event-5.webp"
                                 fill
                                 style={{objectFit: 'cover'}}
                             />
@@ -103,7 +103,7 @@ export default function Events() {
                             <Image
                                 alt="gallery"
                                 className="absolute inset-0 w-full h-full object-cover filter grayscale"
-                                src="https://github.com/showboyz/showboyz.github.io/blob/main/IMG_7347.JPG?raw=true"
+                                src="/images/event-6.webp"
                                 fill
                                 style={{objectFit: 'cover'}}
                             />

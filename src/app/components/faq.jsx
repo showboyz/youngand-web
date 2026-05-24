@@ -21,7 +21,7 @@ export default function Faq() {
                 <div className="flex flex-col justify-center items-center gap-x-16 gap-y-5 xl:gap-28 lg:flex-row lg:justify-between max-lg:max-w-2xl mx-auto max-w-full">
                     <div className="w-full lg:w-1/2">
                         <Image
-                            src="https://images.unsplash.com/photo-1722440814495-3d2d3107a7de?q=80&w=3432&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                            src="https://images.unsplash.com/photo-1722440814495-3d2d3107a7de?q=75&w=1280&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                             alt="FAQ tailwind section"
                             className="w-full rounded-xl"
                             width={800}
