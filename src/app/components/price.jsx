@@ -4,7 +4,7 @@ export default function Pricing({ scrollToContact }) {
     const { t } = useI18n();
     return (
         <section>
-            <div className="mx-auto max-w-screen-xl px-4 py-8 lg:px-6 lg:py-16">
+            <div className="container mx-auto px-5 py-8 lg:py-16">
                 <div className="mx-auto mb-8 max-w-screen-md text-center lg:mb-12">
                     <h1 className="title-font mb-4 text-2xl font-medium text-gray-100 sm:text-3xl">{t('pricing.title')}</h1>
                 </div>
