@@ -15,12 +15,12 @@ const translations = {
       banner: "Transform Your Health with Digital Health Solutions",
       title: "Next-Gen AI Cognitive Training Solutions",
       subtitle:
-        "Revolutionizing Mental Health and Cognitive Care Through AI and Innovative Technology to Support, Prevent, and Transform Lives.",
+        "Advancing cognitive wellness through AI and innovative technology — supporting daily engagement, activity, and independence.",
     },
     hero: {
       title: "Brain Health Playground",
       desc:
-        "This digital health solution uses AI and computer vision to monitor early signs of cognitive decline and deliver personalized cognitive training programs. Our system provides an effective approach for cognitive monitoring and support, helping users maintain and enhance their cognitive function.",
+        "This digital wellness solution uses AI and computer vision to track training performance over time and deliver personalized cognitive activity programs. Our system helps users stay engaged with regular cognitive and physical activity.",
       contact: "Contact Us",
     },
     features: {
@@ -52,19 +52,19 @@ const translations = {
       },
     },
     contents: {
-      title: "The significance of intervention",
+      title: "The significance of ongoing cognitive activity",
       lead:
-        "Despite the inability of dementia prevention to halt disease progression, it is of paramount importance in enhancing the quality of life of patients and alleviating the burden on their families.",
+        "Ongoing cognitive activity is meaningful in helping older adults stay engaged, keep confidence in daily routines, and ease the load on families and staff who support them.",
       cards: [
         {
-          kicker: "AI Analysis for Cognitive Screening",
-          title: "Digital Cognitive Assessment",
-          desc: "Utilize AI-enhanced, personalized cognitive assessments tailored to your unique profile for comprehensive brain health monitoring.",
+          kicker: "Activity-based cognitive check-in",
+          title: "Training performance summary",
+          desc: "Personalized AI-supported activity check-ins that help users see their training performance over time.",
         },
         {
-          kicker: "Assessing Functional Abilities",
-          title: "Physical Capability Scale",
-          desc: "It is essential to evaluate and tailor care in order to enhance seniors' daily functions and independence.",
+          kicker: "Everyday Activity Support",
+          title: "Comfortable Activity Level",
+          desc: "Helps set a comfortable activity level that fits seniors' daily routines and independence.",
         },
         {
           kicker: "Dual-Tasking",
@@ -72,16 +72,16 @@ const translations = {
           desc: "Enhance movement, reaction time, balance, and vocal precision through dual-tasking video and audio analysis.",
         },
         {
-          kicker: "Wellness Consultation",
-          title: "Real-time Expert Advice",
-          desc: "Receive personalized cognitive training, guided by expert recommendations based on your detailed training history.",
+          kicker: "Session Reporting",
+          title: "Session summary for staff",
+          desc: "Session summaries help staff see each user's participation and training history at a glance.",
         },
       ],
     },
     events: {
       headerTitle: "Your Ultimate Partner in Preserving Memory",
       headerDesc:
-        "Discover a range of cognitive exercises that effortlessly stimulate your brain and enhance memory in your daily life. Utilizing scientifically proven methods, our app helps reduce the risk of dementia and prepares you for a healthy and vibrant future.",
+        "Discover a range of cognitive exercises that stimulate your brain and support memory engagement in daily life. The app helps you stay active with regular cognitive and physical activity.",
       items: [
         {
           kicker: "Interactive Cognitive Exercises",
@@ -146,12 +146,12 @@ const translations = {
       banner: "건강의 패러다임을 바꾸다",
       title: "AI 기반 인지 건강 솔루션",
       subtitle:
-        "AI와 첨단 디지털 헬스케어 기술로 정신 건강과 인지 기능 관리의 새로운 표준을 제시합니다. 예방·지원·삶의 질 향상을 한 단계 끌어올립니다.",
+        "AI와 디지털 웰니스 기술로 인지 활동의 새로운 표준을 제시합니다. 일상 몰입·활동·자립을 뒷받침합니다.",
     },
     hero: {
       title: "뇌건강놀이터",
       desc:
-        "AI와 컴퓨터 비전 기술을 활용해 인지 기능 저하의 조기 징후를 정밀 모니터링하고, 개인 맞춤형 인지 훈련 프로그램을 제공합니다. 과학적으로 검증된 방법으로 인지 기능의 유지와 향상을 돕습니다.",
+        "AI와 컴퓨터 비전 기술을 활용해 훈련 수행 이력을 시각화하고, 개인 맞춤형 인지 활동 프로그램을 제공합니다. 사용자가 규칙적인 인지·신체 활동을 지속할 수 있도록 돕습니다.",
       contact: "문의하기",
     },
     features: {
@@ -168,19 +168,19 @@ const translations = {
       desc: "다양한 기관과 고객이 선택한 이유를 실제 사례를 통해 확인하세요.",
     },
     contents: {
-      title: "조기 예방의 중요성",
+      title: "지속적인 인지 활동의 의미",
       lead:
-        "치매 예방이 질환의 진행을 완전히 멈출 수는 없지만, 환자의 삶의 질 향상과 가족의 부담 경감 측면에서 그 효과는 매우 큽니다.",
+        "꾸준한 인지 활동은 시니어가 일상에 대한 자신감과 몰입도를 유지하도록 돕고, 이를 지원하는 가족과 담당자의 부담을 덜어줍니다.",
       cards: [
         {
-          kicker: "AI 기반 인지 기능 선별",
-          title: "디지털 인지 평가",
-          desc: "AI 알고리즘 기반 개인 맞춤형 간이 인지 평가를 통해 종합적인 뇌 건강 모니터링을 제공합니다.",
+          kicker: "활동 기반 인지 체크인",
+          title: "훈련 수행 요약",
+          desc: "AI 기반 개인 맞춤형 활동 체크인으로 훈련 수행 이력을 확인할 수 있도록 지원합니다.",
         },
         {
-          kicker: "일상 기능 평가",
-          title: "신체 기능 척도",
-          desc: "자립성과 일상 수행 능력을 높이기 위한 필수 평가 지표를 제공합니다.",
+          kicker: "일상 활동 지원",
+          title: "편안한 활동 강도",
+          desc: "시니어의 일상 활동과 자립성에 맞는 편안한 활동 강도를 찾도록 돕습니다.",
         },
         {
           kicker: "인지·신체 동시 자극",
@@ -188,16 +188,16 @@ const translations = {
           desc: "영상·음성 분석으로 움직임, 반응속도, 균형감, 언어 표현 능력을 종합적으로 향상시킵니다.",
         },
         {
-          kicker: "웰빙 전문가 상담",
-          title: "실시간 전문가 자문",
-          desc: "훈련 및 평가 데이터를 기반으로 개인별 최적화된 인지 훈련을 제공합니다.",
+          kicker: "세션 리포트",
+          title: "담당자용 세션 요약",
+          desc: "세션 데이터를 기반으로 담당자가 사용자의 참여 상황과 훈련 이력을 한눈에 확인할 수 있습니다.",
         },
       ],
     },
     events: {
       headerTitle: "기억을 지키는 파트너",
       headerDesc:
-        "일상을 방해하지 않는 다양한 인지 훈련으로 뇌를 자극하고 기억력을 강화하세요. 과학적 근거를 바탕으로 치매 위험을 낮추고 건강한 미래를 준비합니다.",
+        "일상을 방해하지 않는 다양한 인지 활동으로 뇌를 자극하고 기억 몰입도를 유지하세요. 규칙적인 인지·신체 활동을 지속할 수 있도록 돕습니다.",
       items: [
         { kicker: "인터랙티브 인지 훈련", title: "마음과 몸의 몰입", desc: "신체 활동과 인지 자극을 결합한 몰입형 훈련으로 전반적인 뇌 기능을 향상합니다." },
         { kicker: "데일리 인지 챌린지", title: "매일 더 선명하게", desc: "하루 10분, 집중력과 기억력을 자극하는 맞춤형 훈련으로 일상에 활력을 더합니다." },

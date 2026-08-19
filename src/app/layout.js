@@ -8,7 +8,7 @@ import { I18nProvider } from "@/context/I18nProvider";
 export const metadata = {
   title: "Youngand - Health with Digital Health Solutions",
   description: "Transform Your Health with Digital Health Solutions",
-  keywords: "digital health solutions, health, wellness, cognitive training, dementia prevention, 영앤, youngand",
+  keywords: "digital wellness, cognitive wellness, senior activity program, cognitive training, 영앤, youngand",
   author: "youngand",
   url: "https://youngandx.com",
 };

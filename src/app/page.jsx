@@ -60,7 +60,7 @@ export default function Home() {
     <Events/>
     {/* <Imageslider/> */}
     <Pricing scrollToContact={scrollToContact} />
-    <Testimonials/>
+    {/* <Testimonials/> */}
     <Faq/>
     {/* FOOTER */}
     <Contact ref={contactSectionRef} />
